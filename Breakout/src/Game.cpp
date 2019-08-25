@@ -70,6 +70,8 @@ void Game::init()
 void Game::update(GLfloat dt)
 {
 	ball->move(dt, this->width);
+	// check for collisions
+	this->doCollisions();
 }
 
 
@@ -96,6 +98,7 @@ void Game::processInput(GLfloat dt) // dt - deltaTime
 		ball->stuck = false;
 }
 
+
 void Game::render()
 {
 	if (this->state == GAME_ACTIVE)
@@ -107,5 +110,50 @@ void Game::render()
 
 		player->draw(*renderer);
 		ball->draw(*renderer);
+	}
+}
+
+
+GLboolean CheckCollision(GameObject &one, GameObject &two) // AABB - AABB collision
+{
+	// Collision x-axis?
+	bool collisionX = one.position.x + one.size.x >= two.position.x &&
+		two.position.x + two.size.x >= one.position.x;
+	// Collision y-axis?
+	bool collisionY = one.position.y + one.size.y >= two.position.y &&
+		two.position.y + two.size.y >= one.position.y;
+	// Collision only if on both axes
+	return collisionX && collisionY;
+}
+
+
+GLboolean checkCollision(BallObject &one, GameObject &two) // AABB - Circle collision
+{
+	// Get center point circle first 
+	glm::vec2 center(one.position + one.radius);
+	// Calculate AABB info (center, half-extents)
+	glm::vec2 aabb_half_extents(two.size.x / 2, two.size.y / 2);
+	glm::vec2 aabb_center(two.position.x + aabb_half_extents.x, two.position.y + aabb_half_extents.y);
+	// Get difference vector between both centers
+	glm::vec2 difference = center - aabb_center;
+	glm::vec2 clamped = glm::clamp(difference, -aabb_half_extents, aabb_half_extents);
+	// Add clamped value to AABB_center and we get the value of box closest to circle
+	glm::vec2 closest = aabb_center + clamped;
+	// Retrieve vector between center circle and closest point AABB and check if length <= radius
+	difference = closest - center;
+
+	return glm::length(difference) < one.radius;
+}
+
+// check for collisions between the ball and bricks
+void Game::doCollisions()
+{
+	for (GameObject& box : this->levels[this->currentLevel].bricks) {
+		if (!box.destroyed) {
+			if (checkCollision(*ball, box)) {
+				if (!box.isSolid)
+					box.destroyed = GL_TRUE;
+			}
+		}
 	}
 }

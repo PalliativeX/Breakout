@@ -1,4 +1,4 @@
-﻿Build started 25.08.2019 16:27:01.
+﻿Build started 25.08.2019 18:13:41.
 Environment at start of build:
 ALLUSERSPROFILE = C:\ProgramData
 APPDATA = C:\Users\Vladimir\AppData\Roaming
@@ -52,8 +52,8 @@ VSLANG = 1033
 VSSKUEDITION = Community
 windir = C:\WINDOWS
 
-16:27:01.674     1>Project "C:\dev\Breakout\Breakout\Breakout.vcxproj" on node 2 (Build target(s)).
-16:27:01.674     1>Initial Properties:
+18:13:41.667     1>Project "C:\dev\Breakout\Breakout\Breakout.vcxproj" on node 2 (Build target(s)).
+18:13:41.667     1>Initial Properties:
                    _AfterCompileWinFXInternalDependsOn = 
                            PrepareResourcesForSatelliteAssemblies;
                            MergeLocalizationDirectives;
@@ -1216,8 +1216,8 @@ windir = C:\WINDOWS
                    VsInstallRoot = C:\Program Files (x86)\Microsoft Visual Studio\2017\Community
                    VSLANG = 1033
                    VSSKUEDITION = Community
-                   VSTEL_CurrentSolutionBuildID = 69544156
-                   VSTEL_SolutionSessionID = {B5F6526F-D906-4A83-AB58-7B0C317D124B}
+                   VSTEL_CurrentSolutionBuildID = 75944265
+                   VSTEL_SolutionSessionID = {68F933AD-B5A0-49B1-BE0C-50BD7BA8C932}
                    VSVersion = $(VisualStudioVersion)
                    WDKBinRoot = C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0
                    WDKBinRoot_x64 = C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x64
@@ -1277,8 +1277,8 @@ windir = C:\WINDOWS
                    XamlTemporaryAssemblyName = Breakout
                    YieldDuringToolExecution = true
 
-16:27:01.674     1>Building with tools version "15.0".
-16:27:01.674     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "SetTelemetryEnvironmentVariables" depends on it):
+18:13:41.667     1>Building with tools version "15.0".
+18:13:41.667     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "SetTelemetryEnvironmentVariables" depends on it):
                    Set Property: _InvalidConfigurationMessageText=The OutputPath property is not set for project 'Breakout.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='Win32'.
                    Set Property: _InvalidConfigurationMessageText=The OutputPath property is not set for project 'Breakout.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='Win32'.  This error may also appear if some other project is trying to follow a project-to-project reference to this project, this project has been unloaded or is not included in the solution, and the referencing project does not build using the same or an equivalent Configuration or Platform.
                    Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
@@ -1297,21 +1297,21 @@ windir = C:\WINDOWS
                    Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\dev\Breakout\\bin\Win32\Debug\' != '' and !HasTrailingSlash('C:\dev\Breakout\\bin\Win32\Debug\')).
                    Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
                    Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('C:\dev\Breakout\\bin\intermediates\\Debug\' != '' and !HasTrailingSlash('C:\dev\Breakout\\bin\intermediates\\Debug\')).
-16:27:01.677     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "Breakout.vcxproj".: (TargetId:2)
+18:13:41.670     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "Breakout.vcxproj".: (TargetId:2)
                    Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
-16:27:01.677     1>Target "SetTelemetryEnvironmentVariables: (TargetId:3)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.DesignTime.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
+18:13:41.670     1>Target "SetTelemetryEnvironmentVariables: (TargetId:3)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.DesignTime.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
                    Using "SetEnv" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
                    Task "SetEnv" (TaskId:4)
                      Task Parameter:Name=VSTEL_SolutionSessionID (TaskId:4)
-                     Task Parameter:Value={B5F6526F-D906-4A83-AB58-7B0C317D124B} (TaskId:4)
+                     Task Parameter:Value={68F933AD-B5A0-49B1-BE0C-50BD7BA8C932} (TaskId:4)
                      Task Parameter:Prefix=False (TaskId:4)
-                     VSTEL_SolutionSessionID={B5F6526F-D906-4A83-AB58-7B0C317D124B} (TaskId:4)
+                     VSTEL_SolutionSessionID={68F933AD-B5A0-49B1-BE0C-50BD7BA8C932} (TaskId:4)
                    Done executing task "SetEnv". (TaskId:4)
                    Task "SetEnv" (TaskId:5)
                      Task Parameter:Name=VSTEL_CurrentSolutionBuildID (TaskId:5)
-                     Task Parameter:Value=69544156 (TaskId:5)
+                     Task Parameter:Value=75944265 (TaskId:5)
                      Task Parameter:Prefix=False (TaskId:5)
-                     VSTEL_CurrentSolutionBuildID=69544156 (TaskId:5)
+                     VSTEL_CurrentSolutionBuildID=75944265 (TaskId:5)
                    Done executing task "SetEnv". (TaskId:5)
                    Task "SetEnv" (TaskId:6)
                      Task Parameter:Name=VSTEL_ProjectID (TaskId:6)
@@ -1320,8 +1320,8 @@ windir = C:\WINDOWS
                      VSTEL_ProjectID={3B604210-CA9A-407C-83E0-715E7847DE0C} (TaskId:6)
                      Output Property: VSTEL_ProjectID={3B604210-CA9A-407C-83E0-715E7847DE0C} (TaskId:6)
                    Done executing task "SetEnv". (TaskId:6)
-16:27:01.678     1>Done building target "SetTelemetryEnvironmentVariables" in project "Breakout.vcxproj".: (TargetId:3)
-16:27:01.678     1>Target "_PrepareForBuild: (TargetId:4)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
+18:13:41.671     1>Done building target "SetTelemetryEnvironmentVariables" in project "Breakout.vcxproj".: (TargetId:3)
+18:13:41.671     1>Target "_PrepareForBuild: (TargetId:4)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
                    Set Property: BuildType=Build
                    Set Property: _BuildActionType=Build
                    Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
@@ -1329,17 +1329,17 @@ windir = C:\WINDOWS
                        CustomBuildStep=
                            Breakout
                                    Message=Performing Custom Build Step
-16:27:01.678     1>Done building target "_PrepareForBuild" in project "Breakout.vcxproj".: (TargetId:4)
-16:27:01.678     1>Target "_PrepareForReferenceResolution: (TargetId:5)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveReferences" depends on it):
+18:13:41.671     1>Done building target "_PrepareForBuild" in project "Breakout.vcxproj".: (TargetId:4)
+18:13:41.671     1>Target "_PrepareForReferenceResolution: (TargetId:5)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveReferences" depends on it):
                    Set Property: TargetFrameworkMoniker=
                    Set Property: _FindDependencies=false
                    Set Property: AdditionalExplicitAssemblyReferences=
                    Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
-16:27:01.678     1>Done building target "_PrepareForReferenceResolution" in project "Breakout.vcxproj".: (TargetId:5)
+18:13:41.671     1>Done building target "_PrepareForReferenceResolution" in project "Breakout.vcxproj".: (TargetId:5)
                    Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('includes\glad\src\glad.c;src\BallObject.cpp;src\BallObject.h;src\Game.cpp;src\GameObject.cpp;src\levels\GameLevel.cpp;src\Program.cpp;src\ResourceManager.cpp;src\shaders\Shader.cpp;src\SpriteRenderer.cpp;src\textures\Texture.cpp'!='' and 'false'=='true' and '' != 'false').
-16:27:01.678     1>Target "BeforeResolveReferences: (TargetId:6)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveReferences" depends on it):
-16:27:01.678     1>Done building target "BeforeResolveReferences" in project "Breakout.vcxproj".: (TargetId:6)
-16:27:01.678     1>Target "AssignProjectConfiguration: (TargetId:7)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveReferences" depends on it):
+18:13:41.671     1>Target "BeforeResolveReferences: (TargetId:6)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveReferences" depends on it):
+18:13:41.671     1>Done building target "BeforeResolveReferences" in project "Breakout.vcxproj".: (TargetId:6)
+18:13:41.671     1>Target "AssignProjectConfiguration: (TargetId:7)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveReferences" depends on it):
                    Set Property: ShouldUnsetParentConfigurationAndPlatform=true
                    Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignProjectConfiguration" (TaskId:7)
@@ -1354,12 +1354,12 @@ windir = C:\WINDOWS
                      Task Parameter:OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=True (TaskId:7)
                      Task Parameter:ShouldUnsetParentConfigurationAndPlatform=True (TaskId:7)
                    Done executing task "AssignProjectConfiguration". (TaskId:7)
-16:27:01.679     1>Done building target "AssignProjectConfiguration" in project "Breakout.vcxproj".: (TargetId:7)
+18:13:41.671     1>Done building target "AssignProjectConfiguration" in project "Breakout.vcxproj".: (TargetId:7)
                    Target "AssignProjectConfiguration" skipped. Previously built successfully.
-16:27:01.679     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:8)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareProjectReferences" depends on it):
+18:13:41.672     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:8)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareProjectReferences" depends on it):
                    Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
-16:27:01.679     1>Done building target "_SplitProjectReferencesByFileExistence" in project "Breakout.vcxproj".: (TargetId:8)
-16:27:01.679     1>Target "_GetProjectReferenceTargetFrameworkProperties: (TargetId:9)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareProjectReferences" depends on it):
+18:13:41.672     1>Done building target "_SplitProjectReferencesByFileExistence" in project "Breakout.vcxproj".: (TargetId:8)
+18:13:41.672     1>Target "_GetProjectReferenceTargetFrameworkProperties: (TargetId:9)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareProjectReferences" depends on it):
                    Set Property: ReferringTargetFrameworkForProjectReferences=.NETFramework,Version=v4.0
                    Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "MSBuild" (TaskId:8)
@@ -1369,21 +1369,21 @@ windir = C:\WINDOWS
                      Task Parameter:SkipNonexistentTargets=True (TaskId:8)
                    Done executing task "MSBuild". (TaskId:8)
                    Task "GetReferenceNearestTargetFrameworkTask" skipped, due to false condition; ('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != '') was evaluated as ('0' != '0' and '.NETFramework,Version=v4.0' != '').
-16:27:01.680     1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "Breakout.vcxproj".: (TargetId:9)
-16:27:01.680     1>Target "PrepareProjectReferences: (TargetId:10)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveProjectReferences" depends on it):
-16:27:01.680     1>Done building target "PrepareProjectReferences" in project "Breakout.vcxproj".: (TargetId:10)
+18:13:41.672     1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "Breakout.vcxproj".: (TargetId:9)
+18:13:41.672     1>Target "PrepareProjectReferences: (TargetId:10)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveProjectReferences" depends on it):
+18:13:41.672     1>Done building target "PrepareProjectReferences" in project "Breakout.vcxproj".: (TargetId:10)
                    Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
-16:27:01.680     1>Target "ResolveProjectReferences: (TargetId:11)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveReferences" depends on it):
+18:13:41.672     1>Target "ResolveProjectReferences: (TargetId:11)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveReferences" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' != '10.0' and '' != '').
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' == '10.0' and '' != '').
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
                    Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
-16:27:01.680     1>Done building target "ResolveProjectReferences" in project "Breakout.vcxproj".: (TargetId:11)
+18:13:41.673     1>Done building target "ResolveProjectReferences" in project "Breakout.vcxproj".: (TargetId:11)
                    Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
                    Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
-16:27:01.680     1>Target "GetFrameworkPaths: (TargetId:12)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+18:13:41.673     1>Target "GetFrameworkPaths: (TargetId:12)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Added Item(s): _TargetFramework40DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
                    Added Item(s): _TargetFramework35DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v3.5
                    Added Item(s): _TargetFramework30DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v3.0
@@ -1393,17 +1393,17 @@ windir = C:\WINDOWS
                    Set Property: TargetFrameworkDirectory=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
                    Set Property: TargetFrameworkSDKDirectory=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
                    Added Item(s): _TargetFrameworkSDKDirectoryItem=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
-16:27:01.681     1>Done building target "GetFrameworkPaths" in project "Breakout.vcxproj".: (TargetId:12)
+18:13:41.673     1>Done building target "GetFrameworkPaths" in project "Breakout.vcxproj".: (TargetId:12)
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
                    Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
-16:27:01.681     1>Target "GetReferenceAssemblyPaths: (TargetId:13)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+18:13:41.673     1>Target "GetReferenceAssemblyPaths: (TargetId:13)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Set Property: TargetFrameworkDirectory=
                    Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
                    Set Property: TargetFrameworkDirectory=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0;;
                    Set Property: TargetFrameworkDirectory=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0;;;C:\Program Files (x86)\Windows Kits\10\References
                    Set Property: RemoveAssemblyFoldersIfNoTargetFramework=true
-16:27:01.681     1>Done building target "GetReferenceAssemblyPaths" in project "Breakout.vcxproj".: (TargetId:13)
-16:27:01.681     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:14)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareForBuild" depends on it):
+18:13:41.673     1>Done building target "GetReferenceAssemblyPaths" in project "Breakout.vcxproj".: (TargetId:13)
+18:13:41.673     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:14)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareForBuild" depends on it):
                    Task "SetEnv" (TaskId:9)
                      Task Parameter:Name=PATH (TaskId:9)
                      Task Parameter:Value=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_191\bin\;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vladimir\AppData\Local\Microsoft\WindowsApps;C:\Users\Vladimir\AppData\Local\atom\bin; (TaskId:9)
@@ -1432,10 +1432,10 @@ windir = C:\WINDOWS
                      INCLUDE=C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\sys;C:\dev\Breakout\Breakout\includes\SOIL\include;C:\dev\Breakout\Breakout\includes\glm-0.9.9.5;C:\dev\Breakout\Breakout\includes\GLFW\include;C:\dev\Breakout\Breakout\includes\glad\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\atlmfc\include;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt;;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\winrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um; (TaskId:12)
                      Output Property: INCLUDE=C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.16299.0\ucrt\sys%3bC:\dev\Breakout\Breakout\includes\SOIL\include%3bC:\dev\Breakout\Breakout\includes\glm-0.9.9.5%3bC:\dev\Breakout\Breakout\includes\GLFW\include%3bC:\dev\Breakout\Breakout\includes\glad\include%3bC:\Program Files %28x86%29\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include%3b%3bC:\Program Files %28x86%29\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\atlmfc\include%3b%3bC:\Program Files %28x86%29\Microsoft Visual Studio\2017\Community\VC\Auxiliary\VS\include%3b%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.16299.0\ucrt%3b%3b%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.16299.0\um%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.16299.0\shared%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.16299.0\winrt%3bC:\Program Files %28x86%29\Windows Kits\NETFXSDK\4.6.1\Include\um%3bC:\Program Files %28x86%29\Windows Kits\NETFXSDK\4.6.1\Include\um%3b (TaskId:12)
                    Done executing task "SetEnv". (TaskId:12)
-16:27:01.682     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "Breakout.vcxproj".: (TargetId:14)
+18:13:41.674     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "Breakout.vcxproj".: (TargetId:14)
                    Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' != '' and '' != 'true').
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
-16:27:01.682     1>Target "GetResolvedWinMD: (TargetId:15)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareForBuild" depends on it):
+18:13:41.674     1>Target "GetResolvedWinMD: (TargetId:15)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareForBuild" depends on it):
                    Added Item(s): 
                        Link=
                            tmp
@@ -1516,8 +1516,8 @@ windir = C:\WINDOWS
                                    TypeLibraryResourceID=1
                                    UACExecutionLevel=AsInvoker
                                    UACUIAccess=false
-16:27:01.685     1>Done building target "GetResolvedWinMD" in project "Breakout.vcxproj".: (TargetId:15)
-16:27:01.685     1>Target "PlatformPrepareForBuild: (TargetId:16)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareForBuild" depends on it):
+18:13:41.678     1>Done building target "GetResolvedWinMD" in project "Breakout.vcxproj".: (TargetId:15)
+18:13:41.678     1>Target "PlatformPrepareForBuild: (TargetId:16)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareForBuild" depends on it):
                    Set Property: ConfigurationPlatformExists=true
                    Set Property: _CurrentPlatformToolsetShortName=v141
                    Task "VCMessage" skipped, due to false condition; ('$(_Error64bitToolsNotInstalled)' == 'true') was evaluated as ('' == 'true').
@@ -1525,22 +1525,22 @@ windir = C:\WINDOWS
                    Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v100') was evaluated as (''!='true' and 'true' != 'true' and 'v141' == 'v100').
                    Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v90') was evaluated as (''!='true' and 'true' != 'true' and 'v141' == 'v90').
                    Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100' and '$(PlatformToolset)' != 'v110') was evaluated as (''!='true' and 'true' != 'true' and 'v141' != 'v90' and 'v141' != 'v100' and 'v141' != 'v110').
-16:27:01.685     1>Done building target "PlatformPrepareForBuild" in project "Breakout.vcxproj".: (TargetId:16)
-16:27:01.685     1>Target "Desktop_PlatformPrepareForBuild: (TargetId:17)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Platforms\Win32\PlatformToolsets\v141\Toolset.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareForBuild" depends on it):
+18:13:41.679     1>Done building target "PlatformPrepareForBuild" in project "Breakout.vcxproj".: (TargetId:16)
+18:13:41.679     1>Target "Desktop_PlatformPrepareForBuild: (TargetId:17)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Platforms\Win32\PlatformToolsets\v141\Toolset.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareForBuild" depends on it):
                    Task "VCMessage" skipped, due to false condition; ($(MissingSDKProps) == 'true') was evaluated as ( == 'true').
-16:27:01.685     1>Done building target "Desktop_PlatformPrepareForBuild" in project "Breakout.vcxproj".: (TargetId:17)
+18:13:41.679     1>Done building target "Desktop_PlatformPrepareForBuild" in project "Breakout.vcxproj".: (TargetId:17)
                    Target "GetFrameworkPaths" skipped. Previously built successfully.
                    Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
                    Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
-16:27:01.685     1>Target "SetCABuildNativeEnvironmentVariables: (TargetId:18)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareForBuild" depends on it):
+18:13:41.679     1>Target "SetCABuildNativeEnvironmentVariables: (TargetId:18)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareForBuild" depends on it):
                    Initializing task factory "CodeTaskFactory" from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Build.Tasks.Core.dll".
                    Using "SetEnvironmentVariable" task from the task factory "Code Task Factory".
                    Task "SetEnvironmentVariable" (TaskId:13)
                      Task Parameter:EnvValue=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\winrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um; (TaskId:13)
                      Task Parameter:EnvKey=CAExcludePath (TaskId:13)
                    Done executing task "SetEnvironmentVariable". (TaskId:13)
-16:27:01.692     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "Breakout.vcxproj".: (TargetId:18)
-16:27:01.692     1>Target "PrepareForBuild: (TargetId:19)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+18:13:41.684     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "Breakout.vcxproj".: (TargetId:18)
+18:13:41.684     1>Target "PrepareForBuild: (TargetId:19)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Set Property: TargetDir=C:\dev\Breakout\bin\Win32\Debug\
                    Set Property: LocalDebuggerCommand=C:\dev\Breakout\\bin\Win32\Debug\Breakout.exe
                    Set Property: BuildProjectReferences=false
@@ -1569,22 +1569,22 @@ windir = C:\WINDOWS
                              C:\dev\Breakout\\bin\Win32\Debug\
                              C:\dev\Breakout\\bin\intermediates\\Debug\Breakout.tlog\ (TaskId:15)
                    Done executing task "MakeDir". (TaskId:15)
-16:27:01.695     1>Done building target "PrepareForBuild" in project "Breakout.vcxproj".: (TargetId:19)
+18:13:41.687     1>Done building target "PrepareForBuild" in project "Breakout.vcxproj".: (TargetId:19)
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
                    Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('includes\glad\src\glad.c;src\BallObject.cpp;src\BallObject.h;src\Game.cpp;src\GameObject.cpp;src\levels\GameLevel.cpp;src\Program.cpp;src\ResourceManager.cpp;src\shaders\Shader.cpp;src\SpriteRenderer.cpp;src\textures\Texture.cpp'!='' and 'false'=='true' and '' != 'false').
                    Target "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
-16:27:01.695     1>Target "ResolveSDKReferences: (TargetId:20)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+18:13:41.687     1>Target "ResolveSDKReferences: (TargetId:20)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
-16:27:01.695     1>Done building target "ResolveSDKReferences" in project "Breakout.vcxproj".: (TargetId:20)
+18:13:41.687     1>Done building target "ResolveSDKReferences" in project "Breakout.vcxproj".: (TargetId:20)
                    Target "ResolveSDKReferences" skipped. Previously built successfully.
-16:27:01.695     1>Target "ExpandSDKReferences: (TargetId:21)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+18:13:41.687     1>Target "ExpandSDKReferences: (TargetId:21)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
-16:27:01.695     1>Done building target "ExpandSDKReferences" in project "Breakout.vcxproj".: (TargetId:21)
+18:13:41.687     1>Done building target "ExpandSDKReferences" in project "Breakout.vcxproj".: (TargetId:21)
                    Target "ResolveNuGetPackageAssets" skipped, due to false condition; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) was evaluated as ('true' == 'true' and exists('obj\project.assets.json')).
                    Target "ImplicitlyExpandNETStandardFacades" skipped, due to false condition; ('$(ImplicitlyExpandNETStandardFacades)' == 'true') was evaluated as ('' == 'true').
                    Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
                    Target "ImplicitlyExpandNETStandardFacades" skipped, due to false condition; ('$(ImplicitlyExpandNETStandardFacades)' == 'true') was evaluated as ('' == 'true').
-16:27:01.695     1>Target "_HandlePackageFileConflicts: (TargetId:22)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+18:13:41.687     1>Target "_HandlePackageFileConflicts: (TargetId:22)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Using "ResolvePackageFileConflicts" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\tools\net46\Microsoft.NET.Build.Extensions.Tasks.dll".
                    Task "ResolvePackageFileConflicts" (TaskId:16)
                      Task Parameter:
@@ -1594,8 +1594,8 @@ windir = C:\WINDOWS
                      Output Item(s): _ReferencesWithoutConflicts= (TaskId:16)
                      Output Item(s): _ReferenceCopyLocalPathsWithoutConflicts= (TaskId:16)
                    Done executing task "ResolvePackageFileConflicts". (TaskId:16)
-16:27:01.696     1>Done building target "_HandlePackageFileConflicts" in project "Breakout.vcxproj".: (TargetId:22)
-16:27:01.696     1>Target "ResolveAssemblyReferences: (TargetId:23)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveReferences" depends on it):
+18:13:41.688     1>Done building target "_HandlePackageFileConflicts" in project "Breakout.vcxproj".: (TargetId:22)
+18:13:41.688     1>Target "ResolveAssemblyReferences: (TargetId:23)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveReferences" depends on it):
                    Added Item(s): 
                        _ReferenceInstalledAssemblyDirectory=
                            C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
@@ -1605,19 +1605,19 @@ windir = C:\WINDOWS
                    Set Property: ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch=Warning
                    Set Property: FindDependenciesOfExternallyResolvedReferences=false
                    Task "ResolveAssemblyReference" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
-16:27:01.696     1>Done building target "ResolveAssemblyReferences" in project "Breakout.vcxproj".: (TargetId:23)
+18:13:41.688     1>Done building target "ResolveAssemblyReferences" in project "Breakout.vcxproj".: (TargetId:23)
                    Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') was evaluated as ('' == 'true' and 'true' == 'true').
                    Target "GenerateBindingRedirectsUpdateAppConfig" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) was evaluated as ('' == 'true' and 'true' == 'true' and Exists('C:\dev\Breakout\\bin\intermediates\\Debug\Breakout.exe.config')).
                    Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
-16:27:01.696     1>Target "AfterResolveReferences: (TargetId:24)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveReferences" depends on it):
-16:27:01.696     1>Done building target "AfterResolveReferences" in project "Breakout.vcxproj".: (TargetId:24)
+18:13:41.688     1>Target "AfterResolveReferences: (TargetId:24)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ResolveReferences" depends on it):
+18:13:41.688     1>Done building target "AfterResolveReferences" in project "Breakout.vcxproj".: (TargetId:24)
                    Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
                    Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
-16:27:01.696     1>Target "ResolveReferences: (TargetId:25)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
-16:27:01.696     1>Done building target "ResolveReferences" in project "Breakout.vcxproj".: (TargetId:25)
+18:13:41.688     1>Target "ResolveReferences: (TargetId:25)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
+18:13:41.688     1>Done building target "ResolveReferences" in project "Breakout.vcxproj".: (TargetId:25)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "PrepareForBuild" skipped. Previously built successfully.
-16:27:01.696     1>Target "InitializeBuildStatus: (TargetId:26)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
+18:13:41.688     1>Target "InitializeBuildStatus: (TargetId:26)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
                    Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "ReadLinesFromFile" (TaskId:17)
                      Task Parameter:File=C:\dev\Breakout\\bin\intermediates\\Debug\Breakout.tlog\Breakout.lastbuildstate (TaskId:17)
@@ -1641,68 +1641,68 @@ windir = C:\WINDOWS
                    Task "Touch" (TaskId:19)
                      Task Parameter:AlwaysCreate=True (TaskId:19)
                      Task Parameter:Files=C:\dev\Breakout\\bin\intermediates\\Debug\Breakout.tlog\unsuccessfulbuild (TaskId:19)
-                     Creating "C:\dev\Breakout\\bin\intermediates\\Debug\Breakout.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:19)
+                     Touching "C:\dev\Breakout\\bin\intermediates\\Debug\Breakout.tlog\unsuccessfulbuild". (TaskId:19)
                    Done executing task "Touch". (TaskId:19)
-16:27:01.700     1>Done building target "InitializeBuildStatus" in project "Breakout.vcxproj".: (TargetId:26)
+18:13:41.690     1>Done building target "InitializeBuildStatus" in project "Breakout.vcxproj".: (TargetId:26)
                    Target "PrepareProjectReferences" skipped. Previously built successfully.
-16:27:01.700     1>Target "BuildGenerateSourcesTraverse: (TargetId:27)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "BuildGenerateSources" depends on it):
+18:13:41.690     1>Target "BuildGenerateSourcesTraverse: (TargetId:27)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "BuildGenerateSources" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
-16:27:01.700     1>Done building target "BuildGenerateSourcesTraverse" in project "Breakout.vcxproj".: (TargetId:27)
+18:13:41.690     1>Done building target "BuildGenerateSourcesTraverse" in project "Breakout.vcxproj".: (TargetId:27)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-16:27:01.700     1>Target "BeforeBuildGenerateSources: (TargetId:28)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-16:27:01.700     1>Done building target "BeforeBuildGenerateSources" in project "Breakout.vcxproj".: (TargetId:28)
-16:27:01.700     1>Target "PreBuildEvent: (TargetId:29)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+18:13:41.690     1>Target "BeforeBuildGenerateSources: (TargetId:28)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+18:13:41.690     1>Done building target "BeforeBuildGenerateSources" in project "Breakout.vcxproj".: (TargetId:28)
+18:13:41.690     1>Target "PreBuildEvent: (TargetId:29)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
-16:27:01.700     1>Done building target "PreBuildEvent" in project "Breakout.vcxproj".: (TargetId:29)
+18:13:41.691     1>Done building target "PreBuildEvent" in project "Breakout.vcxproj".: (TargetId:29)
                    Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
                    Target "FxExport" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
                    Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
                    Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
-16:27:01.700     1>Target "_Xsd: (TargetId:30)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-16:27:01.701     1>Done building target "_Xsd" in project "Breakout.vcxproj".: (TargetId:30)
-16:27:01.701     1>Target "MakeDirsForMidl: (TargetId:31)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Midl" depends on it):
+18:13:41.691     1>Target "_Xsd: (TargetId:30)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+18:13:41.691     1>Done building target "_Xsd" in project "Breakout.vcxproj".: (TargetId:30)
+18:13:41.691     1>Target "MakeDirsForMidl: (TargetId:31)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Midl" depends on it):
                    Set Property: Midl_OutputDir=
                    Task "Makedir" (TaskId:20)
                    Done executing task "Makedir". (TaskId:20)
-16:27:01.701     1>Done building target "MakeDirsForMidl" in project "Breakout.vcxproj".: (TargetId:31)
+18:13:41.691     1>Done building target "MakeDirsForMidl" in project "Breakout.vcxproj".: (TargetId:31)
                    Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
                    Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
                    Target "FxExport" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
                    Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
-16:27:01.701     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:32)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Midl" depends on it):
+18:13:41.691     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:32)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Midl" depends on it):
                    Set Property: Midl_OutputDir=
-16:27:01.701     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "Breakout.vcxproj".: (TargetId:32)
-16:27:01.701     1>Target "AfterMidl: (TargetId:33)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Midl" depends on it):
-16:27:01.701     1>Done building target "AfterMidl" in project "Breakout.vcxproj".: (TargetId:33)
-16:27:01.701     1>Target "_Midl: (TargetId:34)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-16:27:01.701     1>Done building target "_Midl" in project "Breakout.vcxproj".: (TargetId:34)
-16:27:01.701     1>Target "AfterBuildGenerateSources: (TargetId:35)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-16:27:01.701     1>Done building target "AfterBuildGenerateSources" in project "Breakout.vcxproj".: (TargetId:35)
-16:27:01.701     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:36)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-16:27:01.701     1>Done building target "AfterBuildGenerateSourcesEvent" in project "Breakout.vcxproj".: (TargetId:36)
-16:27:01.701     1>Target "_BuildGenerateSourcesAction: (TargetId:37)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "BuildGenerateSources" depends on it):
-16:27:01.701     1>Done building target "_BuildGenerateSourcesAction" in project "Breakout.vcxproj".: (TargetId:37)
-16:27:01.701     1>Target "BuildGenerateSources: (TargetId:38)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
-16:27:01.701     1>Done building target "BuildGenerateSources" in project "Breakout.vcxproj".: (TargetId:38)
+18:13:41.691     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "Breakout.vcxproj".: (TargetId:32)
+18:13:41.691     1>Target "AfterMidl: (TargetId:33)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Midl" depends on it):
+18:13:41.691     1>Done building target "AfterMidl" in project "Breakout.vcxproj".: (TargetId:33)
+18:13:41.691     1>Target "_Midl: (TargetId:34)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+18:13:41.691     1>Done building target "_Midl" in project "Breakout.vcxproj".: (TargetId:34)
+18:13:41.691     1>Target "AfterBuildGenerateSources: (TargetId:35)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+18:13:41.691     1>Done building target "AfterBuildGenerateSources" in project "Breakout.vcxproj".: (TargetId:35)
+18:13:41.691     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:36)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+18:13:41.691     1>Done building target "AfterBuildGenerateSourcesEvent" in project "Breakout.vcxproj".: (TargetId:36)
+18:13:41.691     1>Target "_BuildGenerateSourcesAction: (TargetId:37)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "BuildGenerateSources" depends on it):
+18:13:41.691     1>Done building target "_BuildGenerateSourcesAction" in project "Breakout.vcxproj".: (TargetId:37)
+18:13:41.691     1>Target "BuildGenerateSources: (TargetId:38)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
+18:13:41.691     1>Done building target "BuildGenerateSources" in project "Breakout.vcxproj".: (TargetId:38)
                    Target "PrepareProjectReferences" skipped. Previously built successfully.
-16:27:01.701     1>Target "BuildCompileTraverse: (TargetId:39)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "BuildCompile" depends on it):
+18:13:41.691     1>Target "BuildCompileTraverse: (TargetId:39)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "BuildCompile" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
-16:27:01.701     1>Done building target "BuildCompileTraverse" in project "Breakout.vcxproj".: (TargetId:39)
+18:13:41.691     1>Done building target "BuildCompileTraverse" in project "Breakout.vcxproj".: (TargetId:39)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-16:27:01.701     1>Target "BeforeClCompile: (TargetId:40)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
-16:27:01.701     1>Done building target "BeforeClCompile" in project "Breakout.vcxproj".: (TargetId:40)
+18:13:41.691     1>Target "BeforeClCompile: (TargetId:40)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
+18:13:41.691     1>Done building target "BeforeClCompile" in project "Breakout.vcxproj".: (TargetId:40)
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
-16:27:01.701     1>Target "ComputeCLInputPDBName: (TargetId:41)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
-16:27:01.701     1>Done building target "ComputeCLInputPDBName" in project "Breakout.vcxproj".: (TargetId:41)
+18:13:41.691     1>Target "ComputeCLInputPDBName: (TargetId:41)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
+18:13:41.692     1>Done building target "ComputeCLInputPDBName" in project "Breakout.vcxproj".: (TargetId:41)
                    Target "ResolveReferences" skipped. Previously built successfully.
-16:27:01.701     1>Target "ComputeReferenceCLInput: (TargetId:42)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
+18:13:41.692     1>Target "ComputeReferenceCLInput: (TargetId:42)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
                    Task "WriteLinesToFile" skipped, due to false condition; (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') was evaluated as ((''!='') and '' != 'true').
                    Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
-16:27:01.702     1>Done building target "ComputeReferenceCLInput" in project "Breakout.vcxproj".: (TargetId:42)
-16:27:01.702     1>Target "WarnCompileDuplicatedFilename: (TargetId:43)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
+18:13:41.692     1>Done building target "ComputeReferenceCLInput" in project "Breakout.vcxproj".: (TargetId:42)
+18:13:41.692     1>Target "WarnCompileDuplicatedFilename: (TargetId:43)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'glad.c' != 'glad.c' and 'C:\dev\Breakout\\bin\intermediates\\Debug\' == 'C:\dev\Breakout\\bin\intermediates\\Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'BallObject.cpp' != 'BallObject.cpp' and 'C:\dev\Breakout\\bin\intermediates\\Debug\' == 'C:\dev\Breakout\\bin\intermediates\\Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'BallObject.h' != 'BallObject.h' and 'C:\dev\Breakout\\bin\intermediates\\Debug\' == 'C:\dev\Breakout\\bin\intermediates\\Debug\').
@@ -1714,10 +1714,10 @@ windir = C:\WINDOWS
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Shader.cpp' != 'Shader.cpp' and 'C:\dev\Breakout\\bin\intermediates\\Debug\' == 'C:\dev\Breakout\\bin\intermediates\\Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'SpriteRenderer.cpp' != 'SpriteRenderer.cpp' and 'C:\dev\Breakout\\bin\intermediates\\Debug\' == 'C:\dev\Breakout\\bin\intermediates\\Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Texture.cpp' != 'Texture.cpp' and 'C:\dev\Breakout\\bin\intermediates\\Debug\' == 'C:\dev\Breakout\\bin\intermediates\\Debug\').
-16:27:01.705     1>Done building target "WarnCompileDuplicatedFilename" in project "Breakout.vcxproj".: (TargetId:43)
-16:27:01.705     1>Target "FixupCLCompileOptions: (TargetId:44)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
-16:27:01.705     1>Done building target "FixupCLCompileOptions" in project "Breakout.vcxproj".: (TargetId:44)
-16:27:01.705     1>Target "MakeDirsForCl: (TargetId:45)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
+18:13:41.694     1>Done building target "WarnCompileDuplicatedFilename" in project "Breakout.vcxproj".: (TargetId:43)
+18:13:41.694     1>Target "FixupCLCompileOptions: (TargetId:44)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
+18:13:41.694     1>Done building target "FixupCLCompileOptions" in project "Breakout.vcxproj".: (TargetId:44)
+18:13:41.694     1>Target "MakeDirsForCl: (TargetId:45)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
                    Added Item(s): ClDirsToMake=C:\dev\Breakout\bin\intermediates\Debug
                    Added Item(s): ClDirsToMake=C:\dev\Breakout\bin\intermediates\Debug
                    Added Item(s): ClDirsToMake=C:\dev\Breakout\bin\intermediates\Debug
@@ -1736,25 +1736,25 @@ windir = C:\WINDOWS
                            C:\dev\Breakout\bin\intermediates\Debug
                            C:\dev\Breakout\bin\intermediates\Debug
                            C:\dev\Breakout\bin\intermediates\Debug
-16:27:01.706     1>Done building target "MakeDirsForCl" in project "Breakout.vcxproj".: (TargetId:45)
+18:13:41.695     1>Done building target "MakeDirsForCl" in project "Breakout.vcxproj".: (TargetId:45)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
                    Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' != '' and '' != 'true').
-16:27:01.706     1>Target "_SelectedFiles: (TargetId:46)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "SelectClCompile" depends on it):
-16:27:01.706     1>Done building target "_SelectedFiles" in project "Breakout.vcxproj".: (TargetId:46)
+18:13:41.695     1>Target "_SelectedFiles: (TargetId:46)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "SelectClCompile" depends on it):
+18:13:41.695     1>Done building target "_SelectedFiles" in project "Breakout.vcxproj".: (TargetId:46)
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
                    Target "ComputeCLInputPDBName" skipped. Previously built successfully.
                    Target "ComputeReferenceCLInput" skipped. Previously built successfully.
                    Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
                    Target "FixupCLCompileOptions" skipped. Previously built successfully.
                    Target "_SelectedFiles" skipped. Previously built successfully.
-16:27:01.706     1>Target "SelectCustomBuild: (TargetId:47)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "SelectClCompile" depends on it):
-16:27:01.706     1>Done building target "SelectCustomBuild" in project "Breakout.vcxproj".: (TargetId:47)
-16:27:01.706     1>Target "SelectClCompile: (TargetId:48)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ClCompile" depends on it):
-16:27:01.706     1>Done building target "SelectClCompile" in project "Breakout.vcxproj".: (TargetId:48)
+18:13:41.695     1>Target "SelectCustomBuild: (TargetId:47)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "SelectClCompile" depends on it):
+18:13:41.695     1>Done building target "SelectCustomBuild" in project "Breakout.vcxproj".: (TargetId:47)
+18:13:41.695     1>Target "SelectClCompile: (TargetId:48)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ClCompile" depends on it):
+18:13:41.695     1>Done building target "SelectClCompile" in project "Breakout.vcxproj".: (TargetId:48)
                    Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
                    Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('includes\glad\src\glad.c;src\BallObject.cpp;src\BallObject.h;src\Game.cpp;src\GameObject.cpp;src\levels\GameLevel.cpp;src\Program.cpp;src\ResourceManager.cpp;src\shaders\Shader.cpp;src\SpriteRenderer.cpp;src\textures\Texture.cpp' != '' and 'false' == 'True').
-16:27:01.706     1>Target "ClCompile: (TargetId:49)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
+18:13:41.695     1>Target "ClCompile: (TargetId:49)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
                    Set Property: CLToolArchitecture=Native32Bit
                    Set Property: CLDeleteOutputOnExecute=true
                    Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('EditAndContinue' != '' and 'EditAndContinue' != 'None' and 'EditAndContinue' != 'OldStyle' and 'C:\dev\Breakout\\bin\intermediates\\Debug\vc141.pdb' != '' and !Exists(C:\dev\Breakout\\bin\intermediates\\Debug\vc141.pdb)).
@@ -2626,60 +2626,60 @@ windir = C:\WINDOWS
                      	C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\SHADER.OBJ (TaskId:23)
                      	C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\SPRITERENDERER.OBJ (TaskId:23)
                      	C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\TEXTURE.OBJ (TaskId:23)
-                     src\Game.cpp will be compiled because C:\dev\Breakout\Breakout\src\Game.cpp was modified at 25.08.2019 16:27:01. (TaskId:23)
+                     src\Game.cpp will be compiled because it was not found in the tracking log. (TaskId:23)
                      Outputs for C:\DEV\BREAKOUT\BREAKOUT\SRC\GAME.CPP: (TaskId:23)
                      	C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\GAME.OBJ (TaskId:23)
                      Write Tracking Logs: (TaskId:23)
                      	C:\dev\Breakout\bin\intermediates\Debug\Breakout.tlog\CL.write.1.tlog (TaskId:23)
                      Environment Variables passed to tool: (TaskId:23)
-                       VS_UNICODE_OUTPUT=1452 (TaskId:23)
+                       VS_UNICODE_OUTPUT=2372 (TaskId:23)
                      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /ZI /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\dev\Breakout\\bin\intermediates\\Debug\\" /Fd"C:\dev\Breakout\\bin\intermediates\\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt src\Game.cpp (TaskId:23)
                      Tracking command: (TaskId:23)
-                     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\dev\Breakout\bin\intermediates\Debug\Breakout.tlog /r C:\DEV\BREAKOUT\BREAKOUT\SRC\GAME.CPP /b MSBuildConsole_CancelEvent2b22ea15b574435a903e2dedce8ab62c  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe"  /c /ZI /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\dev\Breakout\\bin\intermediates\\Debug\\" /Fd"C:\dev\Breakout\\bin\intermediates\\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt src\Game.cpp (TaskId:23)
+                     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\dev\Breakout\bin\intermediates\Debug\Breakout.tlog /r C:\DEV\BREAKOUT\BREAKOUT\SRC\GAME.CPP /b MSBuildConsole_CancelEvent09c622bca15040bfb9c5c8350088fa80  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe"  /c /ZI /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\dev\Breakout\\bin\intermediates\\Debug\\" /Fd"C:\dev\Breakout\\bin\intermediates\\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt src\Game.cpp (TaskId:23)
                      Game.cpp (TaskId:23)
-16:27:02.391     1>c:\dev\breakout\breakout\src\game.cpp(50): warning C4244: 'argument': conversion from 'double' to 'GLuint', possible loss of data
-16:27:02.391     1>c:\dev\breakout\breakout\src\game.cpp(51): warning C4244: 'argument': conversion from 'double' to 'GLuint', possible loss of data
-16:27:02.391     1>c:\dev\breakout\breakout\src\game.cpp(52): warning C4244: 'argument': conversion from 'double' to 'GLuint', possible loss of data
-16:27:02.391     1>c:\dev\breakout\breakout\src\game.cpp(53): warning C4244: 'argument': conversion from 'double' to 'GLuint', possible loss of data
+18:13:42.343     1>c:\dev\breakout\breakout\src\game.cpp(50): warning C4244: 'argument': conversion from 'double' to 'GLuint', possible loss of data
+18:13:42.343     1>c:\dev\breakout\breakout\src\game.cpp(51): warning C4244: 'argument': conversion from 'double' to 'GLuint', possible loss of data
+18:13:42.343     1>c:\dev\breakout\breakout\src\game.cpp(52): warning C4244: 'argument': conversion from 'double' to 'GLuint', possible loss of data
+18:13:42.343     1>c:\dev\breakout\breakout\src\game.cpp(53): warning C4244: 'argument': conversion from 'double' to 'GLuint', possible loss of data
                    Done executing task "CL". (TaskId:23)
-16:27:02.678     1>Done building target "ClCompile" in project "Breakout.vcxproj".: (TargetId:49)
+18:13:42.621     1>Done building target "ClCompile" in project "Breakout.vcxproj".: (TargetId:49)
                    Target "RunSelectedFileNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(SelectedFiles)'!='' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''!='' and ''=='true').
                    Target "CppCoreCheck_ValidateForSelectedFile" skipped, due to false condition; ('$(EnableCppCoreCheck)'=='true' or '$(EnableExperimentalCppCoreCheck)'=='true') was evaluated as ('false'=='true' or 'false'=='true').
                    Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('includes\glad\src\glad.c;src\BallObject.cpp;src\BallObject.h;src\Game.cpp;src\GameObject.cpp;src\levels\GameLevel.cpp;src\Program.cpp;src\ResourceManager.cpp;src\shaders\Shader.cpp;src\SpriteRenderer.cpp;src\textures\Texture.cpp' != '' and 'false' == 'True').
-16:27:02.678     1>Target "AfterClCompile: (TargetId:50)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
-16:27:02.678     1>Done building target "AfterClCompile" in project "Breakout.vcxproj".: (TargetId:50)
-16:27:02.678     1>Target "_ClCompile: (TargetId:51)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildCompileAction" depends on it):
-16:27:02.678     1>Done building target "_ClCompile" in project "Breakout.vcxproj".: (TargetId:51)
+18:13:42.622     1>Target "AfterClCompile: (TargetId:50)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ClCompile" depends on it):
+18:13:42.622     1>Done building target "AfterClCompile" in project "Breakout.vcxproj".: (TargetId:50)
+18:13:42.622     1>Target "_ClCompile: (TargetId:51)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildCompileAction" depends on it):
+18:13:42.622     1>Done building target "_ClCompile" in project "Breakout.vcxproj".: (TargetId:51)
                    Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
-16:27:02.678     1>Target "BeforeResourceCompile: (TargetId:52)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ResourceCompile" depends on it):
-16:27:02.678     1>Done building target "BeforeResourceCompile" in project "Breakout.vcxproj".: (TargetId:52)
-16:27:02.678     1>Target "MakeDirsForResourceCompile: (TargetId:53)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ResourceCompile" depends on it):
+18:13:42.622     1>Target "BeforeResourceCompile: (TargetId:52)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ResourceCompile" depends on it):
+18:13:42.622     1>Done building target "BeforeResourceCompile" in project "Breakout.vcxproj".: (TargetId:52)
+18:13:42.622     1>Target "MakeDirsForResourceCompile: (TargetId:53)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ResourceCompile" depends on it):
                    Added Item(s): RcDirsToMake=C:\dev\Breakout\bin\intermediates\Debug
                    Task "MakeDir" (TaskId:24)
                      Task Parameter:Directories=C:\dev\Breakout\bin\intermediates\Debug (TaskId:24)
                    Done executing task "MakeDir". (TaskId:24)
                    Removed Item(s): RcDirsToMake=C:\dev\Breakout\bin\intermediates\Debug
-16:27:02.678     1>Done building target "MakeDirsForResourceCompile" in project "Breakout.vcxproj".: (TargetId:53)
+18:13:42.622     1>Done building target "MakeDirsForResourceCompile" in project "Breakout.vcxproj".: (TargetId:53)
                    Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
-16:27:02.678     1>Target "AfterResourceCompile: (TargetId:54)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ResourceCompile" depends on it):
-16:27:02.678     1>Done building target "AfterResourceCompile" in project "Breakout.vcxproj".: (TargetId:54)
-16:27:02.678     1>Target "_ResourceCompile: (TargetId:55)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildCompileAction" depends on it):
-16:27:02.678     1>Done building target "_ResourceCompile" in project "Breakout.vcxproj".: (TargetId:55)
+18:13:42.622     1>Target "AfterResourceCompile: (TargetId:54)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_ResourceCompile" depends on it):
+18:13:42.622     1>Done building target "AfterResourceCompile" in project "Breakout.vcxproj".: (TargetId:54)
+18:13:42.622     1>Target "_ResourceCompile: (TargetId:55)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildCompileAction" depends on it):
+18:13:42.622     1>Done building target "_ResourceCompile" in project "Breakout.vcxproj".: (TargetId:55)
                    Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
                    Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
-16:27:02.678     1>Target "AfterBuildCompileEvent: (TargetId:56)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildCompileAction" depends on it):
-16:27:02.678     1>Done building target "AfterBuildCompileEvent" in project "Breakout.vcxproj".: (TargetId:56)
-16:27:02.678     1>Target "_BuildCompileAction: (TargetId:57)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "BuildCompile" depends on it):
-16:27:02.678     1>Done building target "_BuildCompileAction" in project "Breakout.vcxproj".: (TargetId:57)
-16:27:02.679     1>Target "BuildCompile: (TargetId:58)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
-16:27:02.679     1>Done building target "BuildCompile" in project "Breakout.vcxproj".: (TargetId:58)
+18:13:42.622     1>Target "AfterBuildCompileEvent: (TargetId:56)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildCompileAction" depends on it):
+18:13:42.622     1>Done building target "AfterBuildCompileEvent" in project "Breakout.vcxproj".: (TargetId:56)
+18:13:42.622     1>Target "_BuildCompileAction: (TargetId:57)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "BuildCompile" depends on it):
+18:13:42.622     1>Done building target "_BuildCompileAction" in project "Breakout.vcxproj".: (TargetId:57)
+18:13:42.622     1>Target "BuildCompile: (TargetId:58)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
+18:13:42.622     1>Done building target "BuildCompile" in project "Breakout.vcxproj".: (TargetId:58)
                    Target "PrepareProjectReferences" skipped. Previously built successfully.
-16:27:02.679     1>Target "BuildLinkTraverse: (TargetId:59)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "BuildLink" depends on it):
+18:13:42.622     1>Target "BuildLinkTraverse: (TargetId:59)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "BuildLink" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
-16:27:02.679     1>Done building target "BuildLinkTraverse" in project "Breakout.vcxproj".: (TargetId:59)
+18:13:42.622     1>Done building target "BuildLinkTraverse" in project "Breakout.vcxproj".: (TargetId:59)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-16:27:02.679     1>Target "ComputeLegacyManifestEmbedding: (TargetId:60)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
+18:13:42.622     1>Target "ComputeLegacyManifestEmbedding: (TargetId:60)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
                    Added Item(s): 
                        Manifest=
                            temp
@@ -2709,26 +2709,26 @@ windir = C:\WINDOWS
                                    TrackerLogDirectory=C:\dev\Breakout\\bin\intermediates\\Debug\Breakout.tlog\
                                    UpdateFileHashes=false
                                    VerboseOutput=true
-16:27:02.679     1>Done building target "ComputeLegacyManifestEmbedding" in project "Breakout.vcxproj".: (TargetId:60)
-16:27:02.679     1>Target "BeforeLink: (TargetId:61)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
-16:27:02.679     1>Done building target "BeforeLink" in project "Breakout.vcxproj".: (TargetId:61)
-16:27:02.679     1>Target "ComputeRCOutputs: (TargetId:62)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
-16:27:02.679     1>Done building target "ComputeRCOutputs" in project "Breakout.vcxproj".: (TargetId:62)
-16:27:02.679     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:63)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
-16:27:02.679     1>Done building target "ComputeRCGeneratedLinkInputs" in project "Breakout.vcxproj".: (TargetId:63)
-16:27:02.679     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:64)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
-16:27:02.679     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "Breakout.vcxproj".: (TargetId:64)
-16:27:02.679     1>Target "ComputeCustomBuildOutput: (TargetId:65)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
+18:13:42.623     1>Done building target "ComputeLegacyManifestEmbedding" in project "Breakout.vcxproj".: (TargetId:60)
+18:13:42.623     1>Target "BeforeLink: (TargetId:61)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
+18:13:42.623     1>Done building target "BeforeLink" in project "Breakout.vcxproj".: (TargetId:61)
+18:13:42.623     1>Target "ComputeRCOutputs: (TargetId:62)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+18:13:42.623     1>Done building target "ComputeRCOutputs" in project "Breakout.vcxproj".: (TargetId:62)
+18:13:42.623     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:63)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
+18:13:42.623     1>Done building target "ComputeRCGeneratedLinkInputs" in project "Breakout.vcxproj".: (TargetId:63)
+18:13:42.623     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:64)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
+18:13:42.623     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "Breakout.vcxproj".: (TargetId:64)
+18:13:42.623     1>Target "ComputeCustomBuildOutput: (TargetId:65)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
                    Task "CreateItem" skipped, due to false condition; ('%(CustomBuildDirsToMake.OutputFileToTool)'!='') was evaluated as (''!='').
                    Task "MakeDir" (TaskId:25)
                    Done executing task "MakeDir". (TaskId:25)
-16:27:02.680     1>Done building target "ComputeCustomBuildOutput" in project "Breakout.vcxproj".: (TargetId:65)
+18:13:42.623     1>Done building target "ComputeCustomBuildOutput" in project "Breakout.vcxproj".: (TargetId:65)
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
                    Target "ComputeCLInputPDBName" skipped. Previously built successfully.
                    Target "ComputeReferenceCLInput" skipped. Previously built successfully.
                    Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
                    Target "FixupCLCompileOptions" skipped. Previously built successfully.
-16:27:02.680     1>Target "ComputeCLOutputs: (TargetId:66)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+18:13:42.623     1>Target "ComputeCLOutputs: (TargetId:66)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
                    Added Item(s): 
                        Obj=
                            C:\dev\Breakout\\bin\intermediates\\Debug\glad.obj
@@ -3424,8 +3424,8 @@ windir = C:\WINDOWS
                                    WholeProgramOptimization=false
                                    WinRTNoStdLib=false
                                    XMLDocumentationFileName=C:\dev\Breakout\\bin\intermediates\\Debug\
-16:27:02.686     1>Done building target "ComputeCLOutputs" in project "Breakout.vcxproj".: (TargetId:66)
-16:27:02.686     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:67)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
+18:13:42.629     1>Done building target "ComputeCLOutputs" in project "Breakout.vcxproj".: (TargetId:66)
+18:13:42.629     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:67)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
                    Added Item(s): 
                        Link=
                            C:\dev\Breakout\\bin\intermediates\\Debug\glad.obj
@@ -3835,11 +3835,11 @@ windir = C:\WINDOWS
                                    TypeLibraryResourceID=1
                                    UACExecutionLevel=AsInvoker
                                    UACUIAccess=false
-16:27:02.687     1>Done building target "ComputeCLGeneratedLinkInputs" in project "Breakout.vcxproj".: (TargetId:67)
-16:27:02.687     1>Target "ComputeLinkInputsFromProject: (TargetId:68)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
-16:27:02.687     1>Done building target "ComputeLinkInputsFromProject" in project "Breakout.vcxproj".: (TargetId:68)
+18:13:42.631     1>Done building target "ComputeCLGeneratedLinkInputs" in project "Breakout.vcxproj".: (TargetId:67)
+18:13:42.631     1>Target "ComputeLinkInputsFromProject: (TargetId:68)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
+18:13:42.631     1>Done building target "ComputeLinkInputsFromProject" in project "Breakout.vcxproj".: (TargetId:68)
                    Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
-16:27:02.687     1>Target "ComputeManifestInputsTargets: (TargetId:69)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
+18:13:42.631     1>Target "ComputeManifestInputsTargets: (TargetId:69)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
                    Added Item(s): 
                        Manifest=
                            temp
@@ -3870,10 +3870,10 @@ windir = C:\WINDOWS
                                    TrackerLogDirectory=C:\dev\Breakout\\bin\intermediates\\Debug\Breakout.tlog\
                                    UpdateFileHashes=false
                                    VerboseOutput=true
-16:27:02.687     1>Done building target "ComputeManifestInputsTargets" in project "Breakout.vcxproj".: (TargetId:69)
+18:13:42.632     1>Done building target "ComputeManifestInputsTargets" in project "Breakout.vcxproj".: (TargetId:69)
                    Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') was evaluated as ('LINK' == 'LINK' and '' != '').
                    Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
-16:27:02.687     1>Target "AssignTargetPaths: (TargetId:70)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareResourceNames" depends on it):
+18:13:42.632     1>Target "AssignTargetPaths: (TargetId:70)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareResourceNames" depends on it):
                    Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignTargetPath" (TaskId:26)
                      Task Parameter:RootFolder=C:\dev\Breakout\Breakout (TaskId:26)
@@ -3905,9 +3905,9 @@ windir = C:\WINDOWS
                    Done executing task "AssignTargetPath". (TaskId:29)
                    Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.frag'=='.manifest').
                    Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.vert'=='.manifest').
-16:27:02.688     1>Done building target "AssignTargetPaths" in project "Breakout.vcxproj".: (TargetId:70)
+18:13:42.633     1>Done building target "AssignTargetPaths" in project "Breakout.vcxproj".: (TargetId:70)
                    Target "AssignTargetPaths" skipped. Previously built successfully.
-16:27:02.688     1>Target "SplitResourcesByCulture: (TargetId:71)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareResourceNames" depends on it):
+18:13:42.633     1>Target "SplitResourcesByCulture: (TargetId:71)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareResourceNames" depends on it):
                    Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
                    Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
                    Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
@@ -3915,13 +3915,13 @@ windir = C:\WINDOWS
                    Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignCulture" (TaskId:30)
                    Done executing task "AssignCulture". (TaskId:30)
-16:27:02.689     1>Done building target "SplitResourcesByCulture" in project "Breakout.vcxproj".: (TargetId:71)
+18:13:42.634     1>Done building target "SplitResourcesByCulture" in project "Breakout.vcxproj".: (TargetId:71)
                    Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
-16:27:02.689     1>Target "CreateCustomManifestResourceNames: (TargetId:72)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareResourceNames" depends on it):
-16:27:02.689     1>Done building target "CreateCustomManifestResourceNames" in project "Breakout.vcxproj".: (TargetId:72)
-16:27:02.689     1>Target "PrepareResourceNames: (TargetId:73)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
-16:27:02.689     1>Done building target "PrepareResourceNames" in project "Breakout.vcxproj".: (TargetId:73)
-16:27:02.689     1>Target "MakeDirsForLink: (TargetId:74)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
+18:13:42.634     1>Target "CreateCustomManifestResourceNames: (TargetId:72)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareResourceNames" depends on it):
+18:13:42.634     1>Done building target "CreateCustomManifestResourceNames" in project "Breakout.vcxproj".: (TargetId:72)
+18:13:42.634     1>Target "PrepareResourceNames: (TargetId:73)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
+18:13:42.634     1>Done building target "PrepareResourceNames" in project "Breakout.vcxproj".: (TargetId:73)
+18:13:42.634     1>Target "MakeDirsForLink: (TargetId:74)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
                    Set Property: _LinkImportLibrary=C:\dev\Breakout\\bin\Win32\Debug\Breakout.lib
                    Added Item(s): _LinkImportLibraryFile=C:\dev\Breakout\\bin\Win32\Debug\Breakout.lib
                    Added Item(s): LinkDirsToMake=C:\dev\Breakout\bin\Win32\Debug
@@ -3943,25 +3943,25 @@ windir = C:\WINDOWS
                            C:\dev\Breakout\bin\Win32\Debug
                            C:\dev\Breakout\bin\Win32\Debug\
                    Removed Item(s): _LinkImportLibraryFile=C:\dev\Breakout\\bin\Win32\Debug\Breakout.lib
-16:27:02.689     1>Done building target "MakeDirsForLink" in project "Breakout.vcxproj".: (TargetId:74)
-16:27:02.690     1>Target "DoLinkOutputFilesMatch: (TargetId:75)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
+18:13:42.635     1>Done building target "MakeDirsForLink" in project "Breakout.vcxproj".: (TargetId:74)
+18:13:42.635     1>Target "DoLinkOutputFilesMatch: (TargetId:75)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
                    Added Item(s): _OutputFileFromLink=C:\dev\Breakout\\bin\Win32\Debug\Breakout.exe
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' == '') was evaluated as ('C:\dev\Breakout\\bin\Win32\Debug\Breakout.exe' == '').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\dev\Breakout\\bin\Win32\Debug\Breakout.exe' != '' and 'C:\dev\Breakout\bin\Win32\Debug\Breakout.exe' != 'C:\dev\Breakout\bin\Win32\Debug\Breakout.exe').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('C:\dev\Breakout\\bin\Win32\Debug\Breakout.exe' != '' and '.exe' != '' and '.exe' != '.exe').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('C:\dev\Breakout\\bin\Win32\Debug\Breakout.exe' != '' and 'Breakout' != '' and 'Breakout' != 'Breakout').
                    Task "VCMessage" skipped, due to false condition; ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) was evaluated as ('' != '' and ('' == '' or '' == 'NotSet')).
-16:27:02.690     1>Done building target "DoLinkOutputFilesMatch" in project "Breakout.vcxproj".: (TargetId:75)
-16:27:02.690     1>Target "PreLinkEvent: (TargetId:76)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
+18:13:42.636     1>Done building target "DoLinkOutputFilesMatch" in project "Breakout.vcxproj".: (TargetId:75)
+18:13:42.636     1>Target "PreLinkEvent: (TargetId:76)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
-16:27:02.690     1>Done building target "PreLinkEvent" in project "Breakout.vcxproj".: (TargetId:76)
-16:27:02.690     1>Target "ComputeLinkSwitches: (TargetId:77)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Link" depends on it):
+18:13:42.636     1>Done building target "PreLinkEvent" in project "Breakout.vcxproj".: (TargetId:76)
+18:13:42.636     1>Target "ComputeLinkSwitches: (TargetId:77)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Link" depends on it):
                    Set Property: Link_MinimalRebuildFromTracking=true
                    Set Property: LinkToolArchitecture=Native32Bit
                    Set Property: _GenerateWindowsMetadata=
-16:27:02.691     1>Done building target "ComputeLinkSwitches" in project "Breakout.vcxproj".: (TargetId:77)
-16:27:02.691     1>Target "Link: (TargetId:78)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
+18:13:42.637     1>Done building target "ComputeLinkSwitches" in project "Breakout.vcxproj".: (TargetId:77)
+18:13:42.637     1>Target "Link: (TargetId:78)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
                    Using "Link" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
                    Task "Link" (TaskId:32)
                      Task Parameter:BuildingInIde=True (TaskId:32)
@@ -4543,10 +4543,11 @@ windir = C:\WINDOWS
                      	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\VC\TOOLS\MSVC\14.13.26128\LIB\X86\MSVCRT.LIB (TaskId:32)
                      	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\VC\TOOLS\MSVC\14.13.26128\LIB\X86\VCRUNTIMED.LIB (TaskId:32)
                      	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.16299.0\UCRT\X86\UCRTD.LIB (TaskId:32)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\VC\TOOLS\MSVC\14.13.26128\BIN\HOSTX86\X86\MSPDBSRV.EXE (TaskId:32)
                      	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\VC\TOOLS\MSVC\14.13.26128\BIN\HOSTX86\X86\VCTIP.EXE (TaskId:32)
                      Source compilation required: input C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\GAME.OBJ is newer than output C:\DEV\BREAKOUT\BIN\WIN32\DEBUG\BREAKOUT.PDB. (TaskId:32)
                      Environment Variables passed to tool: (TaskId:32)
-                       VS_UNICODE_OUTPUT=2216 (TaskId:32)
+                       VS_UNICODE_OUTPUT=2412 (TaskId:32)
                      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\dev\Breakout\\bin\Win32\Debug\Breakout.exe" /INCREMENTAL /NOLOGO opengl32.lib glfw3.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\dev\Breakout\\bin\Win32\Debug\Breakout.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\dev\Breakout\\bin\Win32\Debug\Breakout.lib" /MACHINE:X86 C:\dev\Breakout\\bin\intermediates\\Debug\glad.obj
                      C:\dev\Breakout\\bin\intermediates\\Debug\BallObject.obj
                      C:\dev\Breakout\\bin\intermediates\\Debug\BallObject.obj
@@ -4559,7 +4560,7 @@ windir = C:\WINDOWS
                      C:\dev\Breakout\\bin\intermediates\\Debug\SpriteRenderer.obj
                      C:\dev\Breakout\\bin\intermediates\\Debug\Texture.obj (TaskId:32)
                      Tracking command: (TaskId:32)
-                     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\dev\Breakout\bin\intermediates\Debug\Breakout.tlog /r "C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\BALLOBJECT.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\BALLOBJECT.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\GAME.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\GAMELEVEL.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\GAMEOBJECT.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\GLAD.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\PROGRAM.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\RESOURCEMANAGER.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\SHADER.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\SPRITERENDERER.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\TEXTURE.OBJ" /b MSBuildConsole_CancelEventcbec4126cb3f499bb6c547df87906f9c  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\dev\Breakout\\bin\Win32\Debug\Breakout.exe" /INCREMENTAL /NOLOGO opengl32.lib glfw3.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\dev\Breakout\\bin\Win32\Debug\Breakout.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\dev\Breakout\\bin\Win32\Debug\Breakout.lib" /MACHINE:X86 C:\dev\Breakout\\bin\intermediates\\Debug\glad.obj
+                     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\dev\Breakout\bin\intermediates\Debug\Breakout.tlog /r "C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\BALLOBJECT.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\BALLOBJECT.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\GAME.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\GAMELEVEL.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\GAMEOBJECT.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\GLAD.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\PROGRAM.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\RESOURCEMANAGER.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\SHADER.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\SPRITERENDERER.OBJ|C:\DEV\BREAKOUT\BIN\INTERMEDIATES\DEBUG\TEXTURE.OBJ" /b MSBuildConsole_CancelEventc083c599c71040099a3b77fb97a964db  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\dev\Breakout\\bin\Win32\Debug\Breakout.exe" /INCREMENTAL /NOLOGO opengl32.lib glfw3.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\dev\Breakout\\bin\Win32\Debug\Breakout.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\dev\Breakout\\bin\Win32\Debug\Breakout.lib" /MACHINE:X86 C:\dev\Breakout\\bin\intermediates\\Debug\glad.obj
                      C:\dev\Breakout\\bin\intermediates\\Debug\BallObject.obj
                      C:\dev\Breakout\\bin\intermediates\\Debug\BallObject.obj
                      C:\dev\Breakout\\bin\intermediates\\Debug\Game.obj
@@ -4583,36 +4584,36 @@ windir = C:\WINDOWS
                    Task "VCMessage" skipped, due to false condition; (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
                                 %(Link.GenerateDebugInformation) == 'true' and %(Link.ProgramDataBaseFileName) != '') was evaluated as (('LINK' != 'LINK' or '' != 'true' or 'False' == 'true') and
                                 DebugFastLink == 'true' and  != '').
-16:27:03.022     1>Done building target "Link" in project "Breakout.vcxproj".: (TargetId:78)
+18:13:42.933     1>Done building target "Link" in project "Breakout.vcxproj".: (TargetId:78)
                    Target "MetaGenInputsOutputs" skipped, due to false condition; ('$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('false' == 'True').
                    Target "ComputeMetaGenInputs" skipped, due to false condition; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') was evaluated as ('false'!='' and 'false'!='false').
                    Target "MetaGen" skipped, due to false condition; ('@(MetaGen)' != '') was evaluated as ('' != '').
-16:27:03.022     1>Target "ComputeLinkImportLibraryOutputsForClean: (TargetId:79)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
+18:13:42.934     1>Target "ComputeLinkImportLibraryOutputsForClean: (TargetId:79)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
                    Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkSecondaryOutput)' != '') was evaluated as ('' != '').
-16:27:03.022     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "Breakout.vcxproj".: (TargetId:79)
-16:27:03.022     1>Target "AfterLink: (TargetId:80)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
-16:27:03.022     1>Done building target "AfterLink" in project "Breakout.vcxproj".: (TargetId:80)
-16:27:03.022     1>Target "_Link: (TargetId:81)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
-16:27:03.023     1>Done building target "_Link" in project "Breakout.vcxproj".: (TargetId:81)
-16:27:03.023     1>Target "_ALink: (TargetId:82)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
-16:27:03.023     1>Done building target "_ALink" in project "Breakout.vcxproj".: (TargetId:82)
+18:13:42.934     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "Breakout.vcxproj".: (TargetId:79)
+18:13:42.934     1>Target "AfterLink: (TargetId:80)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_Link" depends on it):
+18:13:42.934     1>Done building target "AfterLink" in project "Breakout.vcxproj".: (TargetId:80)
+18:13:42.934     1>Target "_Link: (TargetId:81)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
+18:13:42.934     1>Done building target "_Link" in project "Breakout.vcxproj".: (TargetId:81)
+18:13:42.934     1>Target "_ALink: (TargetId:82)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
+18:13:42.934     1>Done building target "_ALink" in project "Breakout.vcxproj".: (TargetId:82)
                    Target "ComputeLegacyManifestEmbedding" skipped. Previously built successfully.
-16:27:03.023     1>Target "_Manifest: (TargetId:83)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
+18:13:42.934     1>Target "_Manifest: (TargetId:83)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "CallTarget" skipped, due to false condition; ('$(LegacyManifestEmbedding)' == 'true') was evaluated as ('' == 'true').
-16:27:03.023     1>Done building target "_Manifest" in project "Breakout.vcxproj".: (TargetId:83)
-16:27:03.023     1>Target "RegisterOutput: (TargetId:84)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
+18:13:42.934     1>Done building target "_Manifest" in project "Breakout.vcxproj".: (TargetId:83)
+18:13:42.934     1>Target "RegisterOutput: (TargetId:84)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'!='true').
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'=='true').
                    Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
-16:27:03.023     1>Done building target "RegisterOutput" in project "Breakout.vcxproj".: (TargetId:84)
+18:13:42.935     1>Done building target "RegisterOutput" in project "Breakout.vcxproj".: (TargetId:84)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-16:27:03.023     1>Target "ResolvedXDCMake: (TargetId:85)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_XdcMake" depends on it):
+18:13:42.935     1>Target "ResolvedXDCMake: (TargetId:85)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_XdcMake" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
-16:27:03.023     1>Done building target "ResolvedXDCMake" in project "Breakout.vcxproj".: (TargetId:85)
-16:27:03.023     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:86)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_XdcMake" depends on it):
+18:13:42.935     1>Done building target "ResolvedXDCMake" in project "Breakout.vcxproj".: (TargetId:85)
+18:13:42.935     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:86)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_XdcMake" depends on it):
                    Added Item(s): 
                        XdcMake=
                            temp
@@ -4635,68 +4636,68 @@ windir = C:\WINDOWS
                                    OutputFile=C:\dev\Breakout\\bin\Win32\Debug\Breakout.xml
                                    SuppressStartupBanner=true
                                    TrackerLogDirectory=C:\dev\Breakout\\bin\intermediates\\Debug\Breakout.tlog\
-16:27:03.024     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "Breakout.vcxproj".: (TargetId:86)
-16:27:03.024     1>Target "MakeDirsForXdcMake: (TargetId:87)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_XdcMake" depends on it):
+18:13:42.935     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "Breakout.vcxproj".: (TargetId:86)
+18:13:42.935     1>Target "MakeDirsForXdcMake: (TargetId:87)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_XdcMake" depends on it):
                    Task "MakeDir" (TaskId:34)
                    Done executing task "MakeDir". (TaskId:34)
-16:27:03.024     1>Done building target "MakeDirsForXdcMake" in project "Breakout.vcxproj".: (TargetId:87)
+18:13:42.935     1>Done building target "MakeDirsForXdcMake" in project "Breakout.vcxproj".: (TargetId:87)
                    Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
-16:27:03.024     1>Target "_XdcMake: (TargetId:88)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
-16:27:03.024     1>Done building target "_XdcMake" in project "Breakout.vcxproj".: (TargetId:88)
-16:27:03.024     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:89)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BscMake" depends on it):
-16:27:03.024     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "Breakout.vcxproj".: (TargetId:89)
-16:27:03.024     1>Target "MakeDirsForBscMake: (TargetId:90)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BscMake" depends on it):
+18:13:42.935     1>Target "_XdcMake: (TargetId:88)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
+18:13:42.935     1>Done building target "_XdcMake" in project "Breakout.vcxproj".: (TargetId:88)
+18:13:42.935     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:89)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BscMake" depends on it):
+18:13:42.936     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "Breakout.vcxproj".: (TargetId:89)
+18:13:42.936     1>Target "MakeDirsForBscMake: (TargetId:90)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BscMake" depends on it):
                    Task "MakeDir" (TaskId:35)
                    Done executing task "MakeDir". (TaskId:35)
-16:27:03.024     1>Done building target "MakeDirsForBscMake" in project "Breakout.vcxproj".: (TargetId:90)
+18:13:42.936     1>Done building target "MakeDirsForBscMake" in project "Breakout.vcxproj".: (TargetId:90)
                    Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
                    Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
-16:27:03.024     1>Target "_BscMake: (TargetId:91)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
-16:27:03.024     1>Done building target "_BscMake" in project "Breakout.vcxproj".: (TargetId:91)
+18:13:42.936     1>Target "_BscMake: (TargetId:91)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
+18:13:42.936     1>Done building target "_BscMake" in project "Breakout.vcxproj".: (TargetId:91)
                    Target "RunMergeNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
                    Target "RunNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
-16:27:03.024     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:92)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+18:13:42.936     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:92)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
                    Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
                    Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
-16:27:03.024     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "Breakout.vcxproj".: (TargetId:92)
+18:13:42.936     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "Breakout.vcxproj".: (TargetId:92)
                    Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
                    Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
-16:27:03.024     1>Target "CreateSatelliteAssemblies: (TargetId:93)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
-16:27:03.024     1>Done building target "CreateSatelliteAssemblies" in project "Breakout.vcxproj".: (TargetId:93)
-16:27:03.024     1>Target "_Appverifier: (TargetId:94)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
-16:27:03.024     1>Done building target "_Appverifier" in project "Breakout.vcxproj".: (TargetId:94)
-16:27:03.025     1>Target "_Deploy: (TargetId:95)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
-16:27:03.025     1>Done building target "_Deploy" in project "Breakout.vcxproj".: (TargetId:95)
+18:13:42.936     1>Target "CreateSatelliteAssemblies: (TargetId:93)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
+18:13:42.936     1>Done building target "CreateSatelliteAssemblies" in project "Breakout.vcxproj".: (TargetId:93)
+18:13:42.936     1>Target "_Appverifier: (TargetId:94)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
+18:13:42.936     1>Done building target "_Appverifier" in project "Breakout.vcxproj".: (TargetId:94)
+18:13:42.936     1>Target "_Deploy: (TargetId:95)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
+18:13:42.936     1>Done building target "_Deploy" in project "Breakout.vcxproj".: (TargetId:95)
                    Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
                    Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
                    Target "AssignTargetPaths" skipped. Previously built successfully.
                    Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
                    Target "_GetProjectReferenceTargetFrameworkProperties" skipped. Previously built successfully.
-16:27:03.025     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:96)" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+18:13:42.936     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:96)" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
                    Task "AssignTargetPath" (TaskId:36)
                      Task Parameter:RootFolder=C:\dev\Breakout\Breakout (TaskId:36)
                    Done executing task "AssignTargetPath". (TaskId:36)
-16:27:03.025     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "Breakout.vcxproj".: (TargetId:96)
-16:27:03.025     1>Target "GetCopyToOutputDirectoryItems: (TargetId:97)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+18:13:42.936     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "Breakout.vcxproj".: (TargetId:96)
+18:13:42.936     1>Target "GetCopyToOutputDirectoryItems: (TargetId:97)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
                    Set Property: _GCTODIKeepDuplicates=false
                    Set Property: _GCTODIKeepMetadata=CopyToOutputDirectory;TargetPath
                    Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
                    Task "AssignTargetPath" (TaskId:37)
                      Task Parameter:RootFolder=C:\dev\Breakout\Breakout (TaskId:37)
                    Done executing task "AssignTargetPath". (TaskId:37)
-16:27:03.025     1>Done building target "GetCopyToOutputDirectoryItems" in project "Breakout.vcxproj".: (TargetId:97)
+18:13:42.937     1>Done building target "GetCopyToOutputDirectoryItems" in project "Breakout.vcxproj".: (TargetId:97)
                    Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
                    Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
-16:27:03.025     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:98)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
-16:27:03.025     1>Done building target "_CopySourceItemsToOutputDirectory" in project "Breakout.vcxproj".: (TargetId:98)
+18:13:42.937     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:98)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+18:13:42.937     1>Done building target "_CopySourceItemsToOutputDirectory" in project "Breakout.vcxproj".: (TargetId:98)
                    Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
                    Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
-16:27:03.025     1>Target "_CheckForCompileOutputs: (TargetId:99)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+18:13:42.937     1>Target "_CheckForCompileOutputs: (TargetId:99)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
                    Set Property: _DocumentationFileProduced=false
                    Set Property: _DebugSymbolsProduced=false
-16:27:03.026     1>Done building target "_CheckForCompileOutputs" in project "Breakout.vcxproj".: (TargetId:99)
+18:13:42.937     1>Done building target "_CheckForCompileOutputs" in project "Breakout.vcxproj".: (TargetId:99)
                    Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
-16:27:03.026     1>Target "CopyFilesToOutputDirectory: (TargetId:100)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareForRun" depends on it):
+18:13:42.937     1>Target "CopyFilesToOutputDirectory: (TargetId:100)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "PrepareForRun" depends on it):
                    Set Property: CreateHardLinksForCopyFilesToOutputDirectoryIfPossible=false
                    Set Property: CreateSymbolicLinksForCopyFilesToOutputDirectoryIfPossible=false
                    Set Property: CopyBuildOutputToOutputDirectory=true
@@ -4712,21 +4713,21 @@ windir = C:\WINDOWS
                    Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
                    Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
                    Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
-16:27:03.026     1>Done building target "CopyFilesToOutputDirectory" in project "Breakout.vcxproj".: (TargetId:100)
-16:27:03.026     1>Target "PrepareForRun: (TargetId:101)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
-16:27:03.026     1>Done building target "PrepareForRun" in project "Breakout.vcxproj".: (TargetId:101)
+18:13:42.937     1>Done building target "CopyFilesToOutputDirectory" in project "Breakout.vcxproj".: (TargetId:100)
+18:13:42.937     1>Target "PrepareForRun: (TargetId:101)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
+18:13:42.937     1>Done building target "PrepareForRun" in project "Breakout.vcxproj".: (TargetId:101)
                    Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
-16:27:03.026     1>Target "PostBuildEvent: (TargetId:102)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
+18:13:42.938     1>Target "PostBuildEvent: (TargetId:102)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
-16:27:03.026     1>Done building target "PostBuildEvent" in project "Breakout.vcxproj".: (TargetId:102)
-16:27:03.026     1>Target "_BuildLinkAction: (TargetId:103)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "BuildLink" depends on it):
-16:27:03.026     1>Done building target "_BuildLinkAction" in project "Breakout.vcxproj".: (TargetId:103)
-16:27:03.026     1>Target "BuildLink: (TargetId:104)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
-16:27:03.026     1>Done building target "BuildLink" in project "Breakout.vcxproj".: (TargetId:104)
-16:27:03.026     1>Target "AfterBuild: (TargetId:105)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
-16:27:03.026     1>Done building target "AfterBuild" in project "Breakout.vcxproj".: (TargetId:105)
-16:27:03.026     1>Target "FinalizeBuildStatus: (TargetId:106)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
+18:13:42.938     1>Done building target "PostBuildEvent" in project "Breakout.vcxproj".: (TargetId:102)
+18:13:42.938     1>Target "_BuildLinkAction: (TargetId:103)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "BuildLink" depends on it):
+18:13:42.938     1>Done building target "_BuildLinkAction" in project "Breakout.vcxproj".: (TargetId:103)
+18:13:42.938     1>Target "BuildLink: (TargetId:104)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
+18:13:42.938     1>Done building target "BuildLink" in project "Breakout.vcxproj".: (TargetId:104)
+18:13:42.938     1>Target "AfterBuild: (TargetId:105)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
+18:13:42.938     1>Done building target "AfterBuild" in project "Breakout.vcxproj".: (TargetId:105)
+18:13:42.938     1>Target "FinalizeBuildStatus: (TargetId:106)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (target "Build" depends on it):
                    Using "Delete" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "Delete" (TaskId:38)
                      Task Parameter:Files=C:\dev\Breakout\\bin\intermediates\\Debug\Breakout.tlog\unsuccessfulbuild (TaskId:38)
@@ -4736,31 +4737,29 @@ windir = C:\WINDOWS
                      Task Parameter:Files=C:\dev\Breakout\\bin\intermediates\\Debug\Breakout.tlog\Breakout.lastbuildstate (TaskId:39)
                      Touching "C:\dev\Breakout\\bin\intermediates\\Debug\Breakout.tlog\Breakout.lastbuildstate". (TaskId:39)
                    Done executing task "Touch". (TaskId:39)
-16:27:03.028     1>Done building target "FinalizeBuildStatus" in project "Breakout.vcxproj".: (TargetId:106)
+18:13:42.939     1>Done building target "FinalizeBuildStatus" in project "Breakout.vcxproj".: (TargetId:106)
                    Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
                    Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
-16:27:03.028     1>Target "Build: (TargetId:107)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (entry point):
-16:27:03.028     1>Done building target "Build" in project "Breakout.vcxproj".: (TargetId:107)
-16:27:03.028     1>Done Building Project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (Build target(s)).
+18:13:42.939     1>Target "Build: (TargetId:107)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (entry point):
+18:13:42.939     1>Done building target "Build" in project "Breakout.vcxproj".: (TargetId:107)
+18:13:42.939     1>Done Building Project "C:\dev\Breakout\Breakout\Breakout.vcxproj" (Build target(s)).
 
 Project Performance Summary:
-     1354 ms  C:\dev\Breakout\Breakout\Breakout.vcxproj   1 calls
-               1354 ms  Build                                      1 calls
+     1273 ms  C:\dev\Breakout\Breakout\Breakout.vcxproj   1 calls
+               1273 ms  Build                                      1 calls
 
 Target Performance Summary:
         0 ms  AfterResourceCompile                       1 calls
+        0 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
         0 ms  PreLinkEvent                               1 calls
-        0 ms  DoLinkOutputFilesMatch                     1 calls
-        0 ms  MakeDirsForLink                            1 calls
         0 ms  PrepareResourceNames                       1 calls
         0 ms  CreateCustomManifestResourceNames          1 calls
-        0 ms  ComputeManifestInputsTargets               1 calls
         0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
         0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
         0 ms  ComputeRCGeneratedLinkInputs               1 calls
         0 ms  ComputeRCOutputs                           1 calls
         0 ms  BeforeLink                                 1 calls
-        0 ms  ComputeLegacyManifestEmbedding             1 calls
         0 ms  BuildLinkTraverse                          1 calls
         0 ms  BuildCompile                               1 calls
         0 ms  _BuildCompileAction                        1 calls
@@ -4768,9 +4767,11 @@ Target Performance Summary:
         0 ms  _ResourceCompile                           1 calls
         0 ms  MakeDirsForResourceCompile                 1 calls
         0 ms  BeforeResourceCompile                      1 calls
-        0 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  AfterClCompile                             1 calls
         0 ms  AfterLink                                  1 calls
-        0 ms  _ALink                                     1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  _Link                                      1 calls
         0 ms  _Manifest                                  1 calls
         0 ms  AfterBuild                                 1 calls
         0 ms  BuildLink                                  1 calls
@@ -4778,99 +4779,99 @@ Target Performance Summary:
         0 ms  PostBuildEvent                             1 calls
         0 ms  PrepareForRun                              1 calls
         0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
         0 ms  _CopySourceItemsToOutputDirectory          1 calls
-        0 ms  GetCopyToOutputDirectoryItems              1 calls
         0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
-        0 ms  _ClCompile                                 1 calls
         0 ms  _Deploy                                    1 calls
+        0 ms  _Appverifier                               1 calls
         0 ms  CreateSatelliteAssemblies                  1 calls
         0 ms  _GenerateSatelliteAssemblyInputs           1 calls
         0 ms  _BscMake                                   1 calls
         0 ms  MakeDirsForBscMake                         1 calls
-        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
         0 ms  _XdcMake                                   1 calls
         0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
         0 ms  ResolvedXDCMake                            1 calls
-        0 ms  RegisterOutput                             1 calls
-        0 ms  _Appverifier                               1 calls
-        0 ms  AfterClCompile                             1 calls
-        0 ms  Build                                      1 calls
-        0 ms  GetReferenceAssemblyPaths                  1 calls
-        0 ms  ResolveAssemblyReferences                  1 calls
-        0 ms  AfterResolveReferences                     1 calls
-        0 ms  ResolveSDKReferences                       1 calls
-        0 ms  ResolveReferences                          1 calls
-        0 ms  Desktop_PlatformPrepareForBuild            1 calls
-        0 ms  SelectClCompile                            1 calls
-        0 ms  _PrepareForBuild                           1 calls
-        0 ms  BuildGenerateSourcesTraverse               1 calls
-        0 ms  BeforeBuildGenerateSources                 1 calls
-        0 ms  PreBuildEvent                              1 calls
-        0 ms  MakeDirsForMidl                            1 calls
-        0 ms  PlatformPrepareForBuild                    1 calls
-        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
-        0 ms  AfterMidl                                  1 calls
-        0 ms  ResolveProjectReferences                   1 calls
-        0 ms  ExpandSDKReferences                        1 calls
-        0 ms  _Midl                                      1 calls
+        0 ms  _ALink                                     1 calls
         0 ms  SelectCustomBuild                          1 calls
-        0 ms  _SelectedFiles                             1 calls
-        0 ms  _PrepareForReferenceResolution             1 calls
-        0 ms  FixupCLCompileOptions                      1 calls
-        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  Build                                      1 calls
         0 ms  _SplitProjectReferencesByFileExistence     1 calls
-        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  BeforeResolveReferences                    1 calls
         0 ms  PrepareProjectReferences                   1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  Desktop_PlatformPrepareForBuild            1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  FixupCLCompileOptions                      1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  _PrepareForReferenceResolution             1 calls
         0 ms  BeforeClCompile                            1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
         0 ms  BuildGenerateSources                       1 calls
         0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  BuildCompileTraverse                       1 calls
         0 ms  AfterBuildGenerateSourcesEvent             1 calls
         0 ms  AfterBuildGenerateSources                  1 calls
-        0 ms  BuildCompileTraverse                       1 calls
-        1 ms  _Xsd                                       1 calls
+        0 ms  _Midl                                      1 calls
+        1 ms  ComputeLegacyManifestEmbedding             1 calls
         1 ms  AssignTargetPaths                          1 calls
-        1 ms  _CheckForCompileOutputs                    1 calls
-        1 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
-        1 ms  ComputeLinkSwitches                        1 calls
+        1 ms  MakeDirsForLink                            1 calls
+        1 ms  GetCopyToOutputDirectoryItems              1 calls
+        1 ms  ComputeCLInputPDBName                      1 calls
+        1 ms  ResolveProjectReferences                   1 calls
         1 ms  SetTelemetryEnvironmentVariables           1 calls
-        1 ms  _HandlePackageFileConflicts                1 calls
-        1 ms  ComputeReferenceCLInput                    1 calls
-        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
-        1 ms  ComputeCustomBuildOutput                   1 calls
+        1 ms  PlatformPrepareForBuild                    1 calls
+        1 ms  DoLinkOutputFilesMatch                     1 calls
         1 ms  MakeDirsForCl                              1 calls
-        1 ms  AssignProjectConfiguration                 1 calls
+        1 ms  PreBuildEvent                              1 calls
+        1 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        1 ms  ComputeLinkSwitches                        1 calls
+        1 ms  RegisterOutput                             1 calls
+        1 ms  _HandlePackageFileConflicts                1 calls
         1 ms  SplitResourcesByCulture                    1 calls
-        1 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
-        1 ms  _Link                                      1 calls
-        1 ms  GetFrameworkPaths                          1 calls
-        1 ms  ComputeCLGeneratedLinkInputs               1 calls
-        2 ms  FinalizeBuildStatus                        1 calls
-        3 ms  WarnCompileDuplicatedFilename              1 calls
-        3 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
-        3 ms  GetResolvedWinMD                           1 calls
+        1 ms  ComputeManifestInputsTargets               1 calls
+        1 ms  FinalizeBuildStatus                        1 calls
+        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        2 ms  InitializeBuildStatus                      1 calls
+        2 ms  ComputeCLGeneratedLinkInputs               1 calls
+        2 ms  WarnCompileDuplicatedFilename              1 calls
         3 ms  PrepareForBuild                            1 calls
-        4 ms  InitializeBuildStatus                      1 calls
+        3 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        4 ms  GetResolvedWinMD                           1 calls
+        5 ms  SetCABuildNativeEnvironmentVariables       1 calls
         6 ms  ComputeCLOutputs                           1 calls
-        7 ms  SetCABuildNativeEnvironmentVariables       1 calls
-      331 ms  Link                                       1 calls
-      972 ms  ClCompile                                  1 calls
+      296 ms  Link                                       1 calls
+      926 ms  ClCompile                                  1 calls
 
 Task Performance Summary:
+        0 ms  Message                                    3 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  MSBuild                                    1 calls
         0 ms  SetEnvironmentVariable                     1 calls
         0 ms  MakeDir                                    9 calls
-        0 ms  ReadLinesFromFile                          1 calls
-        0 ms  AssignTargetPath                           6 calls
+        0 ms  Touch                                      2 calls
         0 ms  AssignCulture                              1 calls
-        1 ms  Message                                    3 calls
-        1 ms  ResolvePackageFileConflicts                1 calls
-        1 ms  AssignProjectConfiguration                 1 calls
-        1 ms  MSBuild                                    1 calls
+        0 ms  Delete                                     1 calls
+        1 ms  AssignTargetPath                           6 calls
+        1 ms  ReadLinesFromFile                          1 calls
         1 ms  WriteLinesToFile                           1 calls
-        1 ms  Delete                                     1 calls
+        1 ms  ResolvePackageFileConflicts                1 calls
         2 ms  SetEnv                                     7 calls
-        2 ms  Touch                                      2 calls
-      328 ms  Link                                       1 calls
-      970 ms  CL                                         2 calls
+      295 ms  Link                                       1 calls
+      925 ms  CL                                         2 calls
 
 Build succeeded.
 
@@ -4884,4 +4885,4 @@ Build succeeded.
     4 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.37
+Time Elapsed 00:00:01.27
