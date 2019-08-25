@@ -131,6 +131,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="includes\glad\src\glad.c" />
+    <ClCompile Include="src\BallObject.cpp" />
+    <ClCompile Include="src\BallObject.h" />
     <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\GameObject.cpp" />
     <ClCompile Include="src\levels\GameLevel.cpp" />
