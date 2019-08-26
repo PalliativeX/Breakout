@@ -2,10 +2,12 @@
 #include "SpriteRenderer.h"
 #include "ResourceManager.h"
 #include "BallObject.h"
+#include "ParticleGenerator.h"
 
 SpriteRenderer* renderer;
 GameObject* player;
 BallObject* ball;
+ParticleGenerator* particles;
 
 
 Game::Game(GLuint w, GLuint h)
@@ -15,7 +17,10 @@ Game::Game(GLuint w, GLuint h)
 
 Game::~Game()
 {
-
+	delete renderer;
+	delete player;
+	delete ball;
+	delete particles;
 }
 
 
@@ -23,11 +28,15 @@ void Game::init()
 {
 	// load shaders
 	ResourceManager::loadShader("C:/dev/Breakout/Breakout/src/shaders/sprite.vert", "C:/dev/Breakout/Breakout/src/shaders/sprite.frag", nullptr, "sprite");
+	ResourceManager::loadShader("C:/dev/Breakout/Breakout/src/shaders/particle.vert", "C:/dev/Breakout/Breakout/src/shaders/particle.frag", nullptr, "particle");
 	// configure shaders
 	glm::mat4 projection = glm::mat4(1.f);
 	projection = glm::ortho(0.f, static_cast<GLfloat>(this->width), static_cast<GLfloat>(this->height), 0.f, -1.f, 1.f);
 	ResourceManager::getShader("sprite").use().setInteger("image", 0);
 	ResourceManager::getShader("sprite").setMatrix4("projection", projection);
+	ResourceManager::getShader("particle").use().setInteger("sprite", 0);
+	ResourceManager::getShader("particle").setMatrix4("projection", projection);
+
 	// set render-specific controls
 	renderer = new SpriteRenderer(ResourceManager::getShader("sprite"));
 
@@ -37,6 +46,7 @@ void Game::init()
 	ResourceManager::loadTexture("C:/dev/Breakout/Breakout/src/textures/blockSolid.png", GL_FALSE, "blockSolid");
 	ResourceManager::loadTexture("C:/dev/Breakout/Breakout/src/textures/paddle.png", GL_TRUE, "paddle");
 	ResourceManager::loadTexture("C:/dev/Breakout/Breakout/src/textures/ball.png", GL_TRUE, "ball");
+	ResourceManager::loadTexture("C:/dev/Breakout/Breakout/src/textures/particle.png", GL_TRUE, "particle");
 
 	// load levels
 	GameLevel one;   one.load("C:/dev/Breakout/Breakout/src/levels/one.lvl", this->width, this->height * 0.5);
@@ -56,6 +66,9 @@ void Game::init()
 	// initializing ball
 	glm::vec2 ballPos = playerPos + glm::vec2(PLAYER_SIZE.x / 2 - BALL_RADIUS, -BALL_RADIUS * 2);
 	ball = new BallObject(ballPos, BALL_RADIUS, INITIAL_BALL_VELOCITY, ResourceManager::getTexture("ball"));
+
+	// creating a particle generator
+	particles = new ParticleGenerator(ResourceManager::getShader("particle"), ResourceManager::getTexture("particle"), 500);
 }
 
 
@@ -70,6 +83,9 @@ void Game::update(GLfloat dt)
 		this->resetLevel();
 		this->resetPlayer();
 	}
+
+	// update particles
+	particles->update(dt, *ball, 2, glm::vec2(ball->radius / 2));
 }
 
 
@@ -107,6 +123,7 @@ void Game::render()
 		this->levels[this->currentLevel].draw(*renderer);
 
 		player->draw(*renderer);
+		particles->draw();
 		ball->draw(*renderer);
 	}
 }
