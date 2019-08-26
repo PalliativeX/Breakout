@@ -4,6 +4,7 @@
 #include <glfw3.h>
 #include <vector>
 #include "levels/GameLevel.h"
+#include <tuple>
 
 enum GameState
 {
@@ -11,6 +12,27 @@ enum GameState
 	GAME_MENU,
 	GAME_WIN
 };
+
+enum Direction
+{
+	UP, 
+	RIGHT,
+	DOWN,
+	LEFT
+};
+
+// player paddle
+// initial speed and size
+const glm::vec2 PLAYER_SIZE(100, 20);
+const GLfloat   PLAYER_VELOCITY(500.f);
+
+// ball initial params
+const glm::vec2 INITIAL_BALL_VELOCITY(100.f, -350.f);
+const GLfloat BALL_RADIUS = 12.5f;
+
+// defines a collision typedef that represents collision data
+typedef std::tuple<GLboolean, Direction, glm::vec2> Collision;
+
 
 class Game
 {
@@ -32,4 +54,7 @@ public:
 	void render();
 	// collisions
 	void doCollisions();
+	// reset
+	void resetLevel();
+	void resetPlayer();
 };
