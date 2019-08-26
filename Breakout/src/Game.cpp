@@ -10,6 +10,7 @@ GameObject* player;
 BallObject* ball;
 ParticleGenerator* particles;
 PostProcessor* effects;
+irrklang::ISoundEngine* soundEngine = irrklang::createIrrKlangDevice();
 
 
 GLfloat shakeTime = 0.f;
@@ -28,6 +29,7 @@ Game::~Game()
 	delete ball;
 	delete particles;
 	delete effects;
+	soundEngine->drop();
 }
 
 
@@ -79,6 +81,9 @@ void Game::init()
 	particles = new ParticleGenerator(ResourceManager::getShader("particle"), ResourceManager::getTexture("particle"), 500);
 
 	effects = new PostProcessor(ResourceManager::getShader("postprocessing"), this->width, this->height);
+
+	// turning on the soundtrack
+	soundEngine->play2D("C:/dev/Breakout/Breakout/src/audio/breakout.mp3", GL_TRUE);
 }
 
 
@@ -212,12 +217,15 @@ void Game::doCollisions()
 		if (!box.destroyed) {
 			Collision collision = checkCollision(*ball, box);
 			if (std::get<0>(collision)) { // if a collision occured
-				if (!box.isSolid)
+				if (!box.isSolid) {
 					box.destroyed = GL_TRUE;
+					soundEngine->play2D("C:/dev/Breakout/Breakout/src/audio/bleep.mp3", GL_FALSE);
+				}
 				else {
 					// if block is solid, enable shake effect
 					shakeTime = 0.05f;
 					effects->shake = true;
+					soundEngine->play2D("C:/dev/Breakout/Breakout/src/audio/solid.wav", GL_FALSE);
 				}
 				// collision resolution
 				Direction dir = std::get<1>(collision);
@@ -256,6 +264,8 @@ void Game::doCollisions()
 		ball->velocity.x = INITIAL_BALL_VELOCITY.x * percentage * strength;
 		ball->velocity.y = -1 * abs(ball->velocity.y);
 		ball->velocity = glm::normalize(ball->velocity) * glm::length(oldVelocity);
+
+		soundEngine->play2D("C:/dev/Breakout/Breakout/src/audio/bleep.wav", GL_FALSE);
 	}
 }
 

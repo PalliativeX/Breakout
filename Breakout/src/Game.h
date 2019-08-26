@@ -2,9 +2,12 @@
 
 #include <glad/glad.h>
 #include <glfw3.h>
-#include <vector>
-#include "levels/GameLevel.h"
+#include <irrKlang.h>
+
 #include <tuple>
+#include <vector>
+
+#include "levels/GameLevel.h"
 
 enum GameState
 {
