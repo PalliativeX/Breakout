@@ -9,6 +9,7 @@ public:
 	// ball state
 	GLfloat radius;
 	GLboolean stuck; // if a ball is stuck on the platform (at the beginning)
+	GLboolean sticky, passThrough;
 
 	BallObject();
 	BallObject(glm::vec2 pos, GLfloat rad, glm::vec2 velocity, Texture2D sprite);

@@ -8,6 +8,7 @@
 #include <vector>
 
 #include "levels/GameLevel.h"
+#include "PowerUp.h"
 
 enum GameState
 {
@@ -46,6 +47,7 @@ public:
 	GLuint	   width, height;
 	std::vector<GameLevel> levels;
 	GLuint currentLevel;
+	std::vector<PowerUp> powerUps;
 	// Constructor/Destructor
 	Game(GLuint w, GLuint h);
 	~Game();
@@ -60,4 +62,7 @@ public:
 	// reset
 	void resetLevel();
 	void resetPlayer();
+	// powerups
+	void spawnPowerUps(GameObject& block);
+	void updatePowerUps(GLfloat dt);
 };
