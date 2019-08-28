@@ -54,6 +54,9 @@
     <ClCompile Include="src\PostProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\TextRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\shaders\Shader.h">
@@ -89,6 +92,9 @@
     <ClInclude Include="src\PowerUp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\TextRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\shaders\sprite.vert" />
@@ -97,5 +103,8 @@
     <None Include="src\shaders\particle.frag" />
     <None Include="src\shaders\postprocessing.vert" />
     <None Include="src\shaders\postprocessing.frag" />
+    <None Include="src\shaders\text.vert" />
+    <None Include="src\shaders\text.frag" />
+    <None Include="src\levels\five.lvl" />
   </ItemGroup>
 </Project>

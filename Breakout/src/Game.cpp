@@ -4,8 +4,12 @@
 #include "BallObject.h"
 #include "ParticleGenerator.h"
 #include "PostProcessor.h"
+#include "TextRenderer.h"
 
 #include <algorithm>
+#include <string>
+#include <sstream>
+
 
 SpriteRenderer* renderer;
 GameObject* player;
@@ -13,14 +17,14 @@ BallObject* ball;
 ParticleGenerator* particles;
 PostProcessor* effects;
 irrklang::ISoundEngine* soundEngine = irrklang::createIrrKlangDevice();
-
+TextRenderer* text;
 
 GLfloat shakeTime = 0.f;
 
 
 
 Game::Game(GLuint w, GLuint h)
-	: state(GAME_ACTIVE), keys(), width(w), height(h)
+	: state(GAME_ACTIVE), keys(), width(w), height(h), lives(3)
 { }
 
 
@@ -32,6 +36,7 @@ Game::~Game()
 	delete particles;
 	delete effects;
 	soundEngine->drop();
+	delete text;
 }
 
 
@@ -77,7 +82,7 @@ void Game::init()
 	this->levels.push_back(two);
 	this->levels.push_back(three);
 	this->levels.push_back(four);
-	this->currentLevel = 2;
+	this->currentLevel = 3;
 
 	// initializing player
 	glm::vec2 playerPos = glm::vec2(this->width / 2 - PLAYER_SIZE.x / 2, this->height - PLAYER_SIZE.y);
@@ -95,6 +100,10 @@ void Game::init()
 	// turning on the soundtrack
 	soundEngine->setSoundVolume(soundEngine->getSoundVolume() * 0.4);
 	soundEngine->play2D("C:/dev/Breakout/Breakout/src/audio/breakout.mp3", GL_TRUE);
+
+	// loading a text renderer
+	text = new TextRenderer(this->width, this->height);
+	text->load("C:/dev/Breakout/Breakout/src/fonts/OCRAEXT.TTF", 24);
 }
 
 
@@ -117,16 +126,44 @@ void Game::update(GLfloat dt)
 			effects->shake = false;
 	}
 
-	// reset the game when ball hits the bottom
 	if (ball->position.y >= this->height) {
+		--this->lives;
+		if (this->lives == 0) {
+			this->resetLevel();
+			this->state = GAME_MENU;
+		}
+		this->resetPlayer();
+	}
+
+	if (this->state == GAME_ACTIVE && this->levels[this->currentLevel].isCompleted()) {
 		this->resetLevel();
 		this->resetPlayer();
+		effects->chaos = GL_TRUE;
+		this->state = GAME_WIN;
 	}
 }
 
 
 void Game::processInput(GLfloat dt) // dt - deltaTime
 {
+	if (this->state == GAME_MENU) {
+		if (this->keys[GLFW_KEY_ENTER] && !this->keysProcessed[GLFW_KEY_ENTER]) {
+			this->state = GAME_ACTIVE;
+			this->keysProcessed[GLFW_KEY_ENTER] = GL_TRUE;
+		}
+		if (this->keys[GLFW_KEY_W] && !this->keysProcessed[GLFW_KEY_W]) {
+			this->currentLevel = (this->currentLevel + 1) % 4;
+			this->keysProcessed[GLFW_KEY_W] = GL_TRUE;
+		}
+		if (this->keys[GLFW_KEY_S] && !this->keysProcessed[GLFW_KEY_S]) {
+			if (this->currentLevel > 0)
+				--this->currentLevel;
+			else
+				this->currentLevel = 3;
+			this->keysProcessed[GLFW_KEY_S] = GL_TRUE;;
+		}
+	}
+
 	if (this->state == GAME_ACTIVE) {
 		GLfloat velocity = PLAYER_VELOCITY * dt;
 		// move playerboard
@@ -143,15 +180,25 @@ void Game::processInput(GLfloat dt) // dt - deltaTime
 				if (ball->stuck)
 					ball->position.x += velocity;
 			}
+		if (this->keys[GLFW_KEY_SPACE])
+			ball->stuck = false;
 	}
-	if (this->keys[GLFW_KEY_SPACE])
-		ball->stuck = false;
+
+	if (this->state == GAME_WIN) {
+		if (this->keys[GLFW_KEY_ENTER]) {
+			this->keysProcessed[GLFW_KEY_ENTER] = GL_TRUE;
+			effects->chaos = GL_FALSE;
+			this->state = GAME_MENU;
+		}
+	}
+
 }
 
 
 void Game::render()
 {
-	if (this->state == GAME_ACTIVE)
+
+	if (this->state == GAME_ACTIVE || this->state == GAME_MENU || this->state == GAME_WIN)
 	{
 		effects->beginRender();
 			// draw background
@@ -171,6 +218,20 @@ void Game::render()
 		effects->endRender();
 		// render postprocessing quad
 		effects->render(glfwGetTime());
+
+		// render text lives
+		std::stringstream ss; ss << this->lives;
+		text->renderText("Lives: " + ss.str(), 5.f, 5.f, 1.f);
+	}
+
+	if (this->state == GAME_MENU) {
+		text->renderText("Press ENTER to start", 250.f, this->height / 2, 1.f);
+		text->renderText("Press W or S to select level", 245.f, this->height / 2 + 20.f, 0.75f);
+	}
+
+	if (this->state == GAME_WIN) {
+		text->renderText("You WON!!!", 320.f, height / 2 - 20.f, 1.f, glm::vec3(0.f, 1.f, 0.f));
+		text->renderText("Press ENTER to retry or ESC to quit", 130.f, height / 2, 1.0, glm::vec3(1.f, 1.f, 0.f));
 	}
 }
 
@@ -327,6 +388,8 @@ void Game::resetLevel()
 		this->levels[3].load("C:/dev/Breakout/Breakout/src/levels/four.lvl", this->width, this->height * 0.5);
 		break;
 	}
+
+	this->lives = 3;
 }
 
 void Game::resetPlayer()
@@ -352,22 +415,22 @@ GLboolean shouldSpawn(GLuint chance)
 
 void Game::spawnPowerUps(GameObject & block)
 {
-	if (shouldSpawn(75)) // 1 in 75 chance
+	if (shouldSpawn(65)) // 1 in 65 chance
 		this->powerUps.push_back(PowerUp("speed", glm::vec3(0.5f, 0.5f, 1.f), 0.f, block.position, ResourceManager::getTexture("speedPowerup")));
-	if (shouldSpawn(75))
+	if (shouldSpawn(65))
 		this->powerUps.push_back(PowerUp("sticky", glm::vec3(1.0f, 0.5f, 1.0f), 20.0f, block.position, ResourceManager::getTexture("stickyPowerup")));
-	if (shouldSpawn(75))
+	if (shouldSpawn(65))
 		this->powerUps.push_back(PowerUp("passThrough", glm::vec3(0.5f, 1.0f, 0.5f), 10.0f, block.position, ResourceManager::getTexture("passthroughPowerup")));
-	if (shouldSpawn(75))
+	if (shouldSpawn(65))
 		this->powerUps.push_back(PowerUp("padSizeIncrease", glm::vec3(1.0f, 0.6f, 0.4), 0.0f, block.position, ResourceManager::getTexture("increasePowerup")));
-	if (shouldSpawn(15)) // Negative powerups should spawn more often
+	if (shouldSpawn(20)) // Negative powerups should spawn more often
 		this->powerUps.push_back(PowerUp("confuse", glm::vec3(1.0f, 0.3f, 0.3f), 15.0f, block.position, ResourceManager::getTexture("confusePowerup")));
-	if (shouldSpawn(15))
+	if (shouldSpawn(20))
 		this->powerUps.push_back(PowerUp("chaos", glm::vec3(0.9f, 0.25f, 0.25f), 15.0f, block.position, ResourceManager::getTexture("chaosPowerup")));
 }
 
 
-GLboolean isOtherPowerUpActive(std::vector<PowerUp>& powerups, std::string type) 
+GLboolean isOtherPowerUpActive(std::vector<PowerUp>& powerups, std::string type)
 {
 	for (const PowerUp& powerup : powerups) {
 		if (powerup.activated)

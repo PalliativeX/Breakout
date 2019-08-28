@@ -44,10 +44,12 @@ public:
 	// Game state
 	GameState  state;
 	GLboolean  keys[1024];
+	GLboolean  keysProcessed[1024];
 	GLuint	   width, height;
 	std::vector<GameLevel> levels;
 	GLuint currentLevel;
 	std::vector<PowerUp> powerUps;
+	GLuint lives;
 	// Constructor/Destructor
 	Game(GLuint w, GLuint h);
 	~Game();
